@@ -1,0 +1,2 @@
+model_checkpoint_path: "translate-2000"
+all_model_checkpoint_paths: "translate-2000"

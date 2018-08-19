@@ -1,0 +1,4000 @@
+08/19 15:30:19 label: default
+08/19 15:30:19 description:
+  default configuration
+  next line of description
+  last line
+08/19 15:30:19 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 15:30:19 tensorflow version: 1.5.0
+08/19 15:30:19 program arguments
+08/19 15:30:19   aggregation_method   'sum'
+08/19 15:30:19   align_encoder_id     0
+08/19 15:30:19   allow_growth         True
+08/19 15:30:19   attention_type       'global'
+08/19 15:30:19   attn_filter_length   0
+08/19 15:30:19   attn_filters         0
+08/19 15:30:19   attn_prev_word       False
+08/19 15:30:19   attn_size            128
+08/19 15:30:19   attn_temperature     1.0
+08/19 15:30:19   attn_window_size     0
+08/19 15:30:19   average              False
+08/19 15:30:19   batch_mode           'standard'
+08/19 15:30:19   batch_size           32
+08/19 15:30:19   beam_size            2
+08/19 15:30:19   bidir                False
+08/19 15:30:19   bidir_projection     False
+08/19 15:30:19   binary               False
+08/19 15:30:19   cell_size            128
+08/19 15:30:19   cell_type            'GRU'
+08/19 15:30:19   character_level      False
+08/19 15:30:19   checkpoints          []
+08/19 15:30:19   conditional_rnn      False
+08/19 15:30:19   config               '../config/api2nl.yaml'
+08/19 15:30:19   data_dir             '../data_pre'
+08/19 15:30:19   debug                False
+08/19 15:30:19   decay_after_n_epoch  3
+08/19 15:30:19   decay_every_n_epoch  1
+08/19 15:30:19   decay_if_no_progress None
+08/19 15:30:19   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 15:30:19   description          'default configuration\nnext line of description\nlast line\n'
+08/19 15:30:19   dev_prefix           ['valid']
+08/19 15:30:19   early_stopping       True
+08/19 15:30:19   embedding_size       128
+08/19 15:30:19   embeddings_on_cpu    True
+08/19 15:30:19   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 15:30:19   ensemble             False
+08/19 15:30:19   eval_burn_in         0
+08/19 15:30:19   feed_previous        0.0
+08/19 15:30:19   final_state          'last'
+08/19 15:30:19   freeze_variables     []
+08/19 15:30:19   generate_first       True
+08/19 15:30:19   gpu_id               0
+08/19 15:30:19   highway_layers       0
+08/19 15:30:19   initial_state_dropout 0.0
+08/19 15:30:19   initializer          None
+08/19 15:30:19   input_layer_dropout  0.0
+08/19 15:30:19   input_layers         None
+08/19 15:30:19   keep_best            5
+08/19 15:30:19   keep_every_n_hours   0
+08/19 15:30:19   label                'default'
+08/19 15:30:19   layer_norm           False
+08/19 15:30:19   layers               1
+08/19 15:30:19   learning_rate        0.5
+08/19 15:30:19   learning_rate_decay_factor 0.95
+08/19 15:30:19   len_normalization    1.0
+08/19 15:30:19   log_file             'log.txt'
+08/19 15:30:19   loss_function        'xent'
+08/19 15:30:19   max_dev_size         0
+08/19 15:30:19   max_epochs           50
+08/19 15:30:19   max_gradient_norm    5.0
+08/19 15:30:19   max_len              50
+08/19 15:30:19   max_steps            500000
+08/19 15:30:19   max_test_size        0
+08/19 15:30:19   max_to_keep          1
+08/19 15:30:19   max_train_size       0
+08/19 15:30:19   maxout_stride        None
+08/19 15:30:19   mem_fraction         1.0
+08/19 15:30:19   min_learning_rate    1e-06
+08/19 15:30:19   model_dir            '../data_pre/model/api2nl'
+08/19 15:30:19   moving_average       None
+08/19 15:30:19   no_gpu               False
+08/19 15:30:19   optimizer            'sgd'
+08/19 15:30:19   orthogonal_init      False
+08/19 15:30:19   output               None
+08/19 15:30:19   output_dropout       0.0
+08/19 15:30:19   parallel_iterations  16
+08/19 15:30:19   pervasive_dropout    False
+08/19 15:30:19   pooling_avg          True
+08/19 15:30:19   post_process_script  None
+08/19 15:30:19   pred_deep_layer      False
+08/19 15:30:19   pred_edits           False
+08/19 15:30:19   pred_embed_proj      True
+08/19 15:30:19   pred_maxout_layer    True
+08/19 15:30:19   purge                False
+08/19 15:30:19   raw_output           False
+08/19 15:30:19   read_ahead           1
+08/19 15:30:19   remove_unk           False
+08/19 15:30:19   reverse_input        True
+08/19 15:30:19   rnn_feed_attn        True
+08/19 15:30:19   rnn_input_dropout    0.0
+08/19 15:30:19   rnn_output_dropout   0.0
+08/19 15:30:19   rnn_state_dropout    0.0
+08/19 15:30:19   save                 False
+08/19 15:30:19   score_function       'nltk_corpus_bleu'
+08/19 15:30:19   script_dir           'scripts'
+08/19 15:30:19   sgd_after_n_epoch    None
+08/19 15:30:19   sgd_learning_rate    1.0
+08/19 15:30:19   shuffle              True
+08/19 15:30:19   softmax_temperature  1.0
+08/19 15:30:19   steps_per_checkpoint 2000
+08/19 15:30:19   steps_per_eval       2000
+08/19 15:30:19   swap_memory          True
+08/19 15:30:19   tie_embeddings       False
+08/19 15:30:19   time_pooling         None
+08/19 15:30:19   train                True
+08/19 15:30:19   train_initial_states True
+08/19 15:30:19   train_prefix         'train'
+08/19 15:30:19   truncate_lines       True
+08/19 15:30:19   update_first         False
+08/19 15:30:19   use_dropout          False
+08/19 15:30:19   use_lstm_full_state  False
+08/19 15:30:19   use_previous_word    True
+08/19 15:30:19   verbose              True
+08/19 15:30:19   vocab_prefix         'vocab'
+08/19 15:30:19   weight_scale         None
+08/19 15:30:19   word_dropout         0.0
+08/19 15:30:19 python random seed: 2811693495756926658
+08/19 15:30:19 tf random seed:     7139069930151589233
+08/19 15:30:20 creating model
+08/19 15:30:20 using device: /gpu:0
+08/19 15:30:20 reading vocabularies
+08/19 15:30:20 creating model
+08/19 15:30:22 Trainable parameters:
+08/19 15:30:22 embedding_api:0
+08/19 15:30:22 encoder_api/initial_state:0
+08/19 15:30:22 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 15:30:22 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 15:30:22 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 15:30:22 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 15:30:22 embedding_nl:0
+08/19 15:30:22 decoder_nl/api/initial_state_projection/kernel:0
+08/19 15:30:22 decoder_nl/api/initial_state_projection/bias:0
+08/19 15:30:22 attention_api/W_a/kernel:0
+08/19 15:30:22 attention_api/W_a/bias:0
+08/19 15:30:22 attention_api/U_a/kernel:0
+08/19 15:30:22 attention_api/v_a:0
+08/19 15:30:22 decoder_nl/attention_api/W_a/kernel:0
+08/19 15:30:22 decoder_nl/attention_api/W_a/bias:0
+08/19 15:30:22 decoder_nl/attention_api/U_a/kernel:0
+08/19 15:30:22 decoder_nl/attention_api/v_a:0
+08/19 15:30:22 decoder_nl/maxout/kernel:0
+08/19 15:30:22 decoder_nl/maxout/bias:0
+08/19 15:30:22 decoder_nl/softmax0/kernel:0
+08/19 15:30:22 decoder_nl/softmax1/kernel:0
+08/19 15:30:22 decoder_nl/softmax1/bias:0
+08/19 15:30:22 decoder_nl/gru_cell/gates/bias:0
+08/19 15:30:22 decoder_nl/gru_cell/gates/kernel:0
+08/19 15:30:22 decoder_nl/gru_cell/candidate/bias:0
+08/19 15:30:22 decoder_nl/gru_cell/candidate/kernel:0
+08/19 15:30:33 model parameters (29)
+08/19 15:30:33   attention_api/U_a/kernel:0 (128, 128)
+08/19 15:30:33   attention_api/W_a/bias:0 (128,)
+08/19 15:30:33   attention_api/W_a/kernel:0 (128, 128)
+08/19 15:30:33   attention_api/v_a:0 (128,)
+08/19 15:30:33   baseline_step:0 ()
+08/19 15:30:33   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 15:30:33   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 15:30:33   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 15:30:33   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 15:30:33   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 15:30:33   decoder_nl/attention_api/v_a:0 (128,)
+08/19 15:30:33   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 15:30:33   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 15:30:33   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 15:30:33   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 15:30:33   decoder_nl/maxout/bias:0 (128,)
+08/19 15:30:33   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 15:30:33   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 15:30:33   decoder_nl/softmax1/bias:0 (50004,)
+08/19 15:30:33   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 15:30:33   embedding_api:0 (33082, 128)
+08/19 15:30:33   embedding_nl:0 (50004, 128)
+08/19 15:30:33   encoder_api/initial_state:0 (128,)
+08/19 15:30:33   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 15:30:33   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 15:30:33   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 15:30:33   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 15:30:33   global_step:0 ()
+08/19 15:30:33   learning_rate:0 ()
+08/19 15:30:33 number of parameters: 17.47M
+08/19 15:30:35 global step: 0
+08/19 15:30:35 baseline step: 0
+08/19 15:30:35 reading training data
+08/19 15:31:04 label: default
+08/19 15:31:04 description:
+  default configuration
+  next line of description
+  last line
+08/19 15:31:04 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 15:31:04 tensorflow version: 1.5.0
+08/19 15:31:04 program arguments
+08/19 15:31:04   aggregation_method   'sum'
+08/19 15:31:04   align_encoder_id     0
+08/19 15:31:04   allow_growth         True
+08/19 15:31:04   attention_type       'global'
+08/19 15:31:04   attn_filter_length   0
+08/19 15:31:04   attn_filters         0
+08/19 15:31:04   attn_prev_word       False
+08/19 15:31:04   attn_size            128
+08/19 15:31:04   attn_temperature     1.0
+08/19 15:31:04   attn_window_size     0
+08/19 15:31:04   average              False
+08/19 15:31:04   batch_mode           'standard'
+08/19 15:31:04   batch_size           32
+08/19 15:31:04   beam_size            2
+08/19 15:31:04   bidir                False
+08/19 15:31:04   bidir_projection     False
+08/19 15:31:04   binary               False
+08/19 15:31:04   cell_size            128
+08/19 15:31:04   cell_type            'GRU'
+08/19 15:31:04   character_level      False
+08/19 15:31:04   checkpoints          []
+08/19 15:31:04   conditional_rnn      False
+08/19 15:31:04   config               '../config/api2nl.yaml'
+08/19 15:31:04   data_dir             '../data_pre'
+08/19 15:31:04   debug                False
+08/19 15:31:04   decay_after_n_epoch  3
+08/19 15:31:04   decay_every_n_epoch  1
+08/19 15:31:04   decay_if_no_progress None
+08/19 15:31:04   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 15:31:04   description          'default configuration\nnext line of description\nlast line\n'
+08/19 15:31:04   dev_prefix           ['valid']
+08/19 15:31:04   early_stopping       True
+08/19 15:31:04   embedding_size       128
+08/19 15:31:04   embeddings_on_cpu    True
+08/19 15:31:04   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 15:31:04   ensemble             False
+08/19 15:31:04   eval_burn_in         0
+08/19 15:31:04   feed_previous        0.0
+08/19 15:31:04   final_state          'last'
+08/19 15:31:04   freeze_variables     []
+08/19 15:31:04   generate_first       True
+08/19 15:31:04   gpu_id               0
+08/19 15:31:04   highway_layers       0
+08/19 15:31:04   initial_state_dropout 0.0
+08/19 15:31:04   initializer          None
+08/19 15:31:04   input_layer_dropout  0.0
+08/19 15:31:04   input_layers         None
+08/19 15:31:04   keep_best            5
+08/19 15:31:04   keep_every_n_hours   0
+08/19 15:31:04   label                'default'
+08/19 15:31:04   layer_norm           False
+08/19 15:31:04   layers               1
+08/19 15:31:04   learning_rate        0.5
+08/19 15:31:04   learning_rate_decay_factor 0.95
+08/19 15:31:04   len_normalization    1.0
+08/19 15:31:04   log_file             'log.txt'
+08/19 15:31:04   loss_function        'xent'
+08/19 15:31:04   max_dev_size         0
+08/19 15:31:04   max_epochs           50
+08/19 15:31:04   max_gradient_norm    5.0
+08/19 15:31:04   max_len              50
+08/19 15:31:04   max_steps            500000
+08/19 15:31:04   max_test_size        0
+08/19 15:31:04   max_to_keep          1
+08/19 15:31:04   max_train_size       0
+08/19 15:31:04   maxout_stride        None
+08/19 15:31:04   mem_fraction         1.0
+08/19 15:31:04   min_learning_rate    1e-06
+08/19 15:31:04   model_dir            '../data_pre/model/api2nl'
+08/19 15:31:04   moving_average       None
+08/19 15:31:04   no_gpu               False
+08/19 15:31:04   optimizer            'sgd'
+08/19 15:31:04   orthogonal_init      False
+08/19 15:31:04   output               None
+08/19 15:31:04   output_dropout       0.0
+08/19 15:31:04   parallel_iterations  16
+08/19 15:31:04   pervasive_dropout    False
+08/19 15:31:04   pooling_avg          True
+08/19 15:31:04   post_process_script  None
+08/19 15:31:04   pred_deep_layer      False
+08/19 15:31:04   pred_edits           False
+08/19 15:31:04   pred_embed_proj      True
+08/19 15:31:04   pred_maxout_layer    True
+08/19 15:31:04   purge                False
+08/19 15:31:04   raw_output           False
+08/19 15:31:04   read_ahead           1
+08/19 15:31:04   remove_unk           False
+08/19 15:31:04   reverse_input        True
+08/19 15:31:04   rnn_feed_attn        True
+08/19 15:31:04   rnn_input_dropout    0.0
+08/19 15:31:04   rnn_output_dropout   0.0
+08/19 15:31:04   rnn_state_dropout    0.0
+08/19 15:31:04   save                 False
+08/19 15:31:04   score_function       'nltk_corpus_bleu'
+08/19 15:31:04   script_dir           'scripts'
+08/19 15:31:04   sgd_after_n_epoch    None
+08/19 15:31:04   sgd_learning_rate    1.0
+08/19 15:31:04   shuffle              True
+08/19 15:31:04   softmax_temperature  1.0
+08/19 15:31:04   steps_per_checkpoint 2000
+08/19 15:31:04   steps_per_eval       2000
+08/19 15:31:04   swap_memory          True
+08/19 15:31:04   tie_embeddings       False
+08/19 15:31:04   time_pooling         None
+08/19 15:31:04   train                True
+08/19 15:31:04   train_initial_states True
+08/19 15:31:04   train_prefix         'train'
+08/19 15:31:04   truncate_lines       True
+08/19 15:31:04   update_first         False
+08/19 15:31:04   use_dropout          False
+08/19 15:31:04   use_lstm_full_state  False
+08/19 15:31:04   use_previous_word    True
+08/19 15:31:04   verbose              True
+08/19 15:31:04   vocab_prefix         'vocab'
+08/19 15:31:04   weight_scale         None
+08/19 15:31:04   word_dropout         0.0
+08/19 15:31:04 python random seed: 8524013668558350817
+08/19 15:31:04 tf random seed:     657514040098308944
+08/19 15:31:05 creating model
+08/19 15:31:05 using device: /gpu:0
+08/19 15:31:05 reading vocabularies
+08/19 15:31:05 creating model
+08/19 15:31:07 Trainable parameters:
+08/19 15:31:07 embedding_api:0
+08/19 15:31:07 encoder_api/initial_state:0
+08/19 15:31:07 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 15:31:07 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 15:31:07 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 15:31:07 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 15:31:07 embedding_nl:0
+08/19 15:31:07 decoder_nl/api/initial_state_projection/kernel:0
+08/19 15:31:07 decoder_nl/api/initial_state_projection/bias:0
+08/19 15:31:07 attention_api/W_a/kernel:0
+08/19 15:31:07 attention_api/W_a/bias:0
+08/19 15:31:07 attention_api/U_a/kernel:0
+08/19 15:31:07 attention_api/v_a:0
+08/19 15:31:07 decoder_nl/attention_api/W_a/kernel:0
+08/19 15:31:07 decoder_nl/attention_api/W_a/bias:0
+08/19 15:31:07 decoder_nl/attention_api/U_a/kernel:0
+08/19 15:31:07 decoder_nl/attention_api/v_a:0
+08/19 15:31:07 decoder_nl/maxout/kernel:0
+08/19 15:31:07 decoder_nl/maxout/bias:0
+08/19 15:31:07 decoder_nl/softmax0/kernel:0
+08/19 15:31:07 decoder_nl/softmax1/kernel:0
+08/19 15:31:07 decoder_nl/softmax1/bias:0
+08/19 15:31:07 decoder_nl/gru_cell/gates/bias:0
+08/19 15:31:07 decoder_nl/gru_cell/gates/kernel:0
+08/19 15:31:07 decoder_nl/gru_cell/candidate/bias:0
+08/19 15:31:07 decoder_nl/gru_cell/candidate/kernel:0
+08/19 15:31:18 model parameters (29)
+08/19 15:31:18   attention_api/U_a/kernel:0 (128, 128)
+08/19 15:31:18   attention_api/W_a/bias:0 (128,)
+08/19 15:31:18   attention_api/W_a/kernel:0 (128, 128)
+08/19 15:31:18   attention_api/v_a:0 (128,)
+08/19 15:31:18   baseline_step:0 ()
+08/19 15:31:18   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 15:31:18   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 15:31:18   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 15:31:18   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 15:31:18   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 15:31:18   decoder_nl/attention_api/v_a:0 (128,)
+08/19 15:31:18   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 15:31:18   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 15:31:18   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 15:31:18   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 15:31:18   decoder_nl/maxout/bias:0 (128,)
+08/19 15:31:18   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 15:31:18   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 15:31:18   decoder_nl/softmax1/bias:0 (50004,)
+08/19 15:31:18   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 15:31:18   embedding_api:0 (33082, 128)
+08/19 15:31:18   embedding_nl:0 (50004, 128)
+08/19 15:31:18   encoder_api/initial_state:0 (128,)
+08/19 15:31:18   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 15:31:18   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 15:31:18   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 15:31:18   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 15:31:18   global_step:0 ()
+08/19 15:31:18   learning_rate:0 ()
+08/19 15:31:18 number of parameters: 17.47M
+08/19 15:31:20 global step: 0
+08/19 15:31:20 baseline step: 0
+08/19 15:31:20 reading training data
+08/19 15:31:21 total line count: 340922
+08/19 15:31:54 label: default
+08/19 15:31:54 description:
+  default configuration
+  next line of description
+  last line
+08/19 15:31:54 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 15:31:54 tensorflow version: 1.5.0
+08/19 15:31:54 program arguments
+08/19 15:31:54   aggregation_method   'sum'
+08/19 15:31:54   align_encoder_id     0
+08/19 15:31:54   allow_growth         True
+08/19 15:31:54   attention_type       'global'
+08/19 15:31:54   attn_filter_length   0
+08/19 15:31:54   attn_filters         0
+08/19 15:31:54   attn_prev_word       False
+08/19 15:31:54   attn_size            128
+08/19 15:31:54   attn_temperature     1.0
+08/19 15:31:54   attn_window_size     0
+08/19 15:31:54   average              False
+08/19 15:31:54   batch_mode           'standard'
+08/19 15:31:54   batch_size           32
+08/19 15:31:54   beam_size            2
+08/19 15:31:54   bidir                False
+08/19 15:31:54   bidir_projection     False
+08/19 15:31:54   binary               False
+08/19 15:31:54   cell_size            128
+08/19 15:31:54   cell_type            'GRU'
+08/19 15:31:54   character_level      False
+08/19 15:31:54   checkpoints          []
+08/19 15:31:54   conditional_rnn      False
+08/19 15:31:54   config               '../config/api2nl.yaml'
+08/19 15:31:54   data_dir             '../data_pre'
+08/19 15:31:54   debug                False
+08/19 15:31:54   decay_after_n_epoch  3
+08/19 15:31:54   decay_every_n_epoch  1
+08/19 15:31:54   decay_if_no_progress None
+08/19 15:31:54   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 15:31:54   description          'default configuration\nnext line of description\nlast line\n'
+08/19 15:31:54   dev_prefix           ['valid']
+08/19 15:31:54   early_stopping       True
+08/19 15:31:54   embedding_size       128
+08/19 15:31:54   embeddings_on_cpu    True
+08/19 15:31:54   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 15:31:54   ensemble             False
+08/19 15:31:54   eval_burn_in         0
+08/19 15:31:54   feed_previous        0.0
+08/19 15:31:54   final_state          'last'
+08/19 15:31:54   freeze_variables     []
+08/19 15:31:54   generate_first       True
+08/19 15:31:54   gpu_id               0
+08/19 15:31:54   highway_layers       0
+08/19 15:31:54   initial_state_dropout 0.0
+08/19 15:31:54   initializer          None
+08/19 15:31:54   input_layer_dropout  0.0
+08/19 15:31:54   input_layers         None
+08/19 15:31:54   keep_best            5
+08/19 15:31:54   keep_every_n_hours   0
+08/19 15:31:54   label                'default'
+08/19 15:31:54   layer_norm           False
+08/19 15:31:54   layers               1
+08/19 15:31:54   learning_rate        0.5
+08/19 15:31:54   learning_rate_decay_factor 0.95
+08/19 15:31:54   len_normalization    1.0
+08/19 15:31:54   log_file             'log.txt'
+08/19 15:31:54   loss_function        'xent'
+08/19 15:31:54   max_dev_size         0
+08/19 15:31:54   max_epochs           50
+08/19 15:31:54   max_gradient_norm    5.0
+08/19 15:31:54   max_len              50
+08/19 15:31:54   max_steps            500000
+08/19 15:31:54   max_test_size        0
+08/19 15:31:54   max_to_keep          1
+08/19 15:31:54   max_train_size       0
+08/19 15:31:54   maxout_stride        None
+08/19 15:31:54   mem_fraction         1.0
+08/19 15:31:54   min_learning_rate    1e-06
+08/19 15:31:54   model_dir            '../data_pre/model/api2nl'
+08/19 15:31:54   moving_average       None
+08/19 15:31:54   no_gpu               False
+08/19 15:31:54   optimizer            'sgd'
+08/19 15:31:54   orthogonal_init      False
+08/19 15:31:54   output               None
+08/19 15:31:54   output_dropout       0.0
+08/19 15:31:54   parallel_iterations  16
+08/19 15:31:54   pervasive_dropout    False
+08/19 15:31:54   pooling_avg          True
+08/19 15:31:54   post_process_script  None
+08/19 15:31:54   pred_deep_layer      False
+08/19 15:31:54   pred_edits           False
+08/19 15:31:54   pred_embed_proj      True
+08/19 15:31:54   pred_maxout_layer    True
+08/19 15:31:54   purge                False
+08/19 15:31:54   raw_output           False
+08/19 15:31:54   read_ahead           1
+08/19 15:31:54   remove_unk           False
+08/19 15:31:54   reverse_input        True
+08/19 15:31:54   rnn_feed_attn        True
+08/19 15:31:54   rnn_input_dropout    0.0
+08/19 15:31:54   rnn_output_dropout   0.0
+08/19 15:31:54   rnn_state_dropout    0.0
+08/19 15:31:54   save                 False
+08/19 15:31:54   score_function       'nltk_corpus_bleu'
+08/19 15:31:54   script_dir           'scripts'
+08/19 15:31:54   sgd_after_n_epoch    None
+08/19 15:31:54   sgd_learning_rate    1.0
+08/19 15:31:54   shuffle              True
+08/19 15:31:54   softmax_temperature  1.0
+08/19 15:31:54   steps_per_checkpoint 2000
+08/19 15:31:54   steps_per_eval       2000
+08/19 15:31:54   swap_memory          True
+08/19 15:31:54   tie_embeddings       False
+08/19 15:31:54   time_pooling         None
+08/19 15:31:54   train                True
+08/19 15:31:54   train_initial_states True
+08/19 15:31:54   train_prefix         'train'
+08/19 15:31:54   truncate_lines       True
+08/19 15:31:54   update_first         False
+08/19 15:31:54   use_dropout          False
+08/19 15:31:54   use_lstm_full_state  False
+08/19 15:31:54   use_previous_word    True
+08/19 15:31:54   verbose              True
+08/19 15:31:54   vocab_prefix         'vocab'
+08/19 15:31:54   weight_scale         None
+08/19 15:31:54   word_dropout         0.0
+08/19 15:31:54 python random seed: 5311623534964080607
+08/19 15:31:54 tf random seed:     6028254958691256681
+08/19 15:31:55 creating model
+08/19 15:31:55 using device: /gpu:0
+08/19 15:31:55 reading vocabularies
+08/19 15:31:55 creating model
+08/19 15:31:56 Trainable parameters:
+08/19 15:31:56 embedding_api:0
+08/19 15:31:56 encoder_api/initial_state:0
+08/19 15:31:56 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 15:31:56 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 15:31:56 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 15:31:56 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 15:31:56 embedding_nl:0
+08/19 15:31:56 decoder_nl/api/initial_state_projection/kernel:0
+08/19 15:31:56 decoder_nl/api/initial_state_projection/bias:0
+08/19 15:31:56 attention_api/W_a/kernel:0
+08/19 15:31:56 attention_api/W_a/bias:0
+08/19 15:31:56 attention_api/U_a/kernel:0
+08/19 15:31:56 attention_api/v_a:0
+08/19 15:31:56 decoder_nl/attention_api/W_a/kernel:0
+08/19 15:31:56 decoder_nl/attention_api/W_a/bias:0
+08/19 15:31:56 decoder_nl/attention_api/U_a/kernel:0
+08/19 15:31:56 decoder_nl/attention_api/v_a:0
+08/19 15:31:56 decoder_nl/maxout/kernel:0
+08/19 15:31:56 decoder_nl/maxout/bias:0
+08/19 15:31:56 decoder_nl/softmax0/kernel:0
+08/19 15:31:56 decoder_nl/softmax1/kernel:0
+08/19 15:31:56 decoder_nl/softmax1/bias:0
+08/19 15:31:56 decoder_nl/gru_cell/gates/bias:0
+08/19 15:31:56 decoder_nl/gru_cell/gates/kernel:0
+08/19 15:31:56 decoder_nl/gru_cell/candidate/bias:0
+08/19 15:31:56 decoder_nl/gru_cell/candidate/kernel:0
+08/19 15:32:08 model parameters (29)
+08/19 15:32:08   attention_api/U_a/kernel:0 (128, 128)
+08/19 15:32:08   attention_api/W_a/bias:0 (128,)
+08/19 15:32:08   attention_api/W_a/kernel:0 (128, 128)
+08/19 15:32:08   attention_api/v_a:0 (128,)
+08/19 15:32:08   baseline_step:0 ()
+08/19 15:32:08   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 15:32:08   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 15:32:08   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 15:32:08   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 15:32:08   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 15:32:08   decoder_nl/attention_api/v_a:0 (128,)
+08/19 15:32:08   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 15:32:08   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 15:32:08   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 15:32:08   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 15:32:08   decoder_nl/maxout/bias:0 (128,)
+08/19 15:32:08   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 15:32:08   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 15:32:08   decoder_nl/softmax1/bias:0 (50004,)
+08/19 15:32:08   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 15:32:08   embedding_api:0 (33082, 128)
+08/19 15:32:08   embedding_nl:0 (50004, 128)
+08/19 15:32:08   encoder_api/initial_state:0 (128,)
+08/19 15:32:08   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 15:32:08   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 15:32:08   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 15:32:08   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 15:32:08   global_step:0 ()
+08/19 15:32:08   learning_rate:0 ()
+08/19 15:32:08 number of parameters: 17.47M
+08/19 15:32:10 global step: 0
+08/19 15:32:10 baseline step: 0
+08/19 15:32:10 reading training data
+08/19 15:32:10 total line count: 340922
+08/19 15:32:17   lines read: 100000
+08/19 15:32:24   lines read: 200000
+08/19 15:32:31   lines read: 300000
+08/19 15:32:34 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 15:32:34 lines reads: 340922
+08/19 15:32:34 reading development data
+08/19 15:32:35 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 15:32:35 lines reads: 18940
+08/19 15:32:36 starting training
+08/19 15:40:37 label: default
+08/19 15:40:37 description:
+  default configuration
+  next line of description
+  last line
+08/19 15:40:37 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 15:40:37 tensorflow version: 1.5.0
+08/19 15:40:37 program arguments
+08/19 15:40:37   aggregation_method   'sum'
+08/19 15:40:37   align_encoder_id     0
+08/19 15:40:37   allow_growth         True
+08/19 15:40:37   attention_type       'global'
+08/19 15:40:37   attn_filter_length   0
+08/19 15:40:37   attn_filters         0
+08/19 15:40:37   attn_prev_word       False
+08/19 15:40:37   attn_size            128
+08/19 15:40:37   attn_temperature     1.0
+08/19 15:40:37   attn_window_size     0
+08/19 15:40:37   average              False
+08/19 15:40:37   batch_mode           'standard'
+08/19 15:40:37   batch_size           32
+08/19 15:40:37   beam_size            2
+08/19 15:40:37   bidir                False
+08/19 15:40:37   bidir_projection     False
+08/19 15:40:37   binary               False
+08/19 15:40:37   cell_size            128
+08/19 15:40:37   cell_type            'GRU'
+08/19 15:40:37   character_level      False
+08/19 15:40:37   checkpoints          []
+08/19 15:40:37   conditional_rnn      False
+08/19 15:40:37   config               '../config/api2nl.yaml'
+08/19 15:40:37   data_dir             '../data_pre'
+08/19 15:40:37   debug                False
+08/19 15:40:37   decay_after_n_epoch  3
+08/19 15:40:37   decay_every_n_epoch  1
+08/19 15:40:37   decay_if_no_progress None
+08/19 15:40:37   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 15:40:37   description          'default configuration\nnext line of description\nlast line\n'
+08/19 15:40:37   dev_prefix           ['valid']
+08/19 15:40:37   early_stopping       True
+08/19 15:40:37   embedding_size       128
+08/19 15:40:37   embeddings_on_cpu    True
+08/19 15:40:37   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 15:40:37   ensemble             False
+08/19 15:40:37   eval_burn_in         0
+08/19 15:40:37   feed_previous        0.0
+08/19 15:40:37   final_state          'last'
+08/19 15:40:37   freeze_variables     []
+08/19 15:40:37   generate_first       True
+08/19 15:40:37   gpu_id               0
+08/19 15:40:37   highway_layers       0
+08/19 15:40:37   initial_state_dropout 0.0
+08/19 15:40:37   initializer          None
+08/19 15:40:37   input_layer_dropout  0.0
+08/19 15:40:37   input_layers         None
+08/19 15:40:37   keep_best            5
+08/19 15:40:37   keep_every_n_hours   0
+08/19 15:40:37   label                'default'
+08/19 15:40:37   layer_norm           False
+08/19 15:40:37   layers               1
+08/19 15:40:37   learning_rate        0.5
+08/19 15:40:37   learning_rate_decay_factor 0.95
+08/19 15:40:37   len_normalization    1.0
+08/19 15:40:37   log_file             'log.txt'
+08/19 15:40:37   loss_function        'xent'
+08/19 15:40:37   max_dev_size         0
+08/19 15:40:37   max_epochs           50
+08/19 15:40:37   max_gradient_norm    5.0
+08/19 15:40:37   max_len              50
+08/19 15:40:37   max_steps            500000
+08/19 15:40:37   max_test_size        0
+08/19 15:40:37   max_to_keep          1
+08/19 15:40:37   max_train_size       0
+08/19 15:40:37   maxout_stride        None
+08/19 15:40:37   mem_fraction         1.0
+08/19 15:40:37   min_learning_rate    1e-06
+08/19 15:40:37   model_dir            '../data_pre/model/api2nl'
+08/19 15:40:37   moving_average       None
+08/19 15:40:37   no_gpu               False
+08/19 15:40:37   optimizer            'sgd'
+08/19 15:40:37   orthogonal_init      False
+08/19 15:40:37   output               None
+08/19 15:40:37   output_dropout       0.0
+08/19 15:40:37   parallel_iterations  16
+08/19 15:40:37   pervasive_dropout    False
+08/19 15:40:37   pooling_avg          True
+08/19 15:40:37   post_process_script  None
+08/19 15:40:37   pred_deep_layer      False
+08/19 15:40:37   pred_edits           False
+08/19 15:40:37   pred_embed_proj      True
+08/19 15:40:37   pred_maxout_layer    True
+08/19 15:40:37   purge                False
+08/19 15:40:37   raw_output           False
+08/19 15:40:37   read_ahead           1
+08/19 15:40:37   remove_unk           False
+08/19 15:40:37   reverse_input        True
+08/19 15:40:37   rnn_feed_attn        True
+08/19 15:40:37   rnn_input_dropout    0.0
+08/19 15:40:37   rnn_output_dropout   0.0
+08/19 15:40:37   rnn_state_dropout    0.0
+08/19 15:40:37   save                 False
+08/19 15:40:37   score_function       'nltk_corpus_bleu'
+08/19 15:40:37   script_dir           'scripts'
+08/19 15:40:37   sgd_after_n_epoch    None
+08/19 15:40:37   sgd_learning_rate    1.0
+08/19 15:40:37   shuffle              True
+08/19 15:40:37   softmax_temperature  1.0
+08/19 15:40:37   steps_per_checkpoint 2000
+08/19 15:40:37   steps_per_eval       2000
+08/19 15:40:37   swap_memory          True
+08/19 15:40:37   tie_embeddings       False
+08/19 15:40:37   time_pooling         None
+08/19 15:40:37   train                True
+08/19 15:40:37   train_initial_states True
+08/19 15:40:37   train_prefix         'train'
+08/19 15:40:37   truncate_lines       True
+08/19 15:40:37   update_first         False
+08/19 15:40:37   use_dropout          False
+08/19 15:40:37   use_lstm_full_state  False
+08/19 15:40:37   use_previous_word    True
+08/19 15:40:37   verbose              True
+08/19 15:40:37   vocab_prefix         'vocab'
+08/19 15:40:37   weight_scale         None
+08/19 15:40:37   word_dropout         0.0
+08/19 15:40:37 python random seed: 2129161682642169757
+08/19 15:40:37 tf random seed:     3988558340939782813
+08/19 15:40:38 creating model
+08/19 15:40:38 using device: /gpu:0
+08/19 15:40:38 reading vocabularies
+08/19 15:40:38 creating model
+08/19 15:40:39 Trainable parameters:
+08/19 15:40:39 embedding_api:0
+08/19 15:40:39 encoder_api/initial_state:0
+08/19 15:40:39 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 15:40:39 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 15:40:39 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 15:40:39 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 15:40:39 embedding_nl:0
+08/19 15:40:39 decoder_nl/api/initial_state_projection/kernel:0
+08/19 15:40:39 decoder_nl/api/initial_state_projection/bias:0
+08/19 15:40:39 attention_api/W_a/kernel:0
+08/19 15:40:39 attention_api/W_a/bias:0
+08/19 15:40:39 attention_api/U_a/kernel:0
+08/19 15:40:39 attention_api/v_a:0
+08/19 15:40:39 decoder_nl/attention_api/W_a/kernel:0
+08/19 15:40:39 decoder_nl/attention_api/W_a/bias:0
+08/19 15:40:39 decoder_nl/attention_api/U_a/kernel:0
+08/19 15:40:39 decoder_nl/attention_api/v_a:0
+08/19 15:40:39 decoder_nl/maxout/kernel:0
+08/19 15:40:39 decoder_nl/maxout/bias:0
+08/19 15:40:39 decoder_nl/softmax0/kernel:0
+08/19 15:40:39 decoder_nl/softmax1/kernel:0
+08/19 15:40:39 decoder_nl/softmax1/bias:0
+08/19 15:40:39 decoder_nl/gru_cell/gates/bias:0
+08/19 15:40:39 decoder_nl/gru_cell/gates/kernel:0
+08/19 15:40:39 decoder_nl/gru_cell/candidate/bias:0
+08/19 15:40:39 decoder_nl/gru_cell/candidate/kernel:0
+08/19 15:40:51 model parameters (29)
+08/19 15:40:51   attention_api/U_a/kernel:0 (128, 128)
+08/19 15:40:51   attention_api/W_a/bias:0 (128,)
+08/19 15:40:51   attention_api/W_a/kernel:0 (128, 128)
+08/19 15:40:51   attention_api/v_a:0 (128,)
+08/19 15:40:51   baseline_step:0 ()
+08/19 15:40:51   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 15:40:51   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 15:40:51   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 15:40:51   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 15:40:51   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 15:40:51   decoder_nl/attention_api/v_a:0 (128,)
+08/19 15:40:51   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 15:40:51   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 15:40:51   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 15:40:51   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 15:40:51   decoder_nl/maxout/bias:0 (128,)
+08/19 15:40:51   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 15:40:51   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 15:40:51   decoder_nl/softmax1/bias:0 (50004,)
+08/19 15:40:51   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 15:40:51   embedding_api:0 (33082, 128)
+08/19 15:40:51   embedding_nl:0 (50004, 128)
+08/19 15:40:51   encoder_api/initial_state:0 (128,)
+08/19 15:40:51   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 15:40:51   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 15:40:51   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 15:40:51   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 15:40:51   global_step:0 ()
+08/19 15:40:51   learning_rate:0 ()
+08/19 15:40:51 number of parameters: 17.47M
+08/19 15:40:53 global step: 0
+08/19 15:40:53 baseline step: 0
+08/19 15:40:53 reading training data
+08/19 15:40:53 total line count: 340922
+08/19 15:41:00   lines read: 100000
+08/19 15:41:07   lines read: 200000
+08/19 15:41:14   lines read: 300000
+08/19 15:41:17 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 15:41:17 lines reads: 340922
+08/19 15:41:17 reading development data
+08/19 15:41:18 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 15:41:18 lines reads: 18940
+08/19 15:41:19 starting training
+08/19 15:42:26 label: default
+08/19 15:42:26 description:
+  default configuration
+  next line of description
+  last line
+08/19 15:42:26 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 15:42:26 tensorflow version: 1.5.0
+08/19 15:42:26 program arguments
+08/19 15:42:26   aggregation_method   'sum'
+08/19 15:42:26   align_encoder_id     0
+08/19 15:42:26   allow_growth         True
+08/19 15:42:26   attention_type       'global'
+08/19 15:42:26   attn_filter_length   0
+08/19 15:42:26   attn_filters         0
+08/19 15:42:26   attn_prev_word       False
+08/19 15:42:26   attn_size            128
+08/19 15:42:26   attn_temperature     1.0
+08/19 15:42:26   attn_window_size     0
+08/19 15:42:26   average              False
+08/19 15:42:26   batch_mode           'standard'
+08/19 15:42:26   batch_size           32
+08/19 15:42:26   beam_size            2
+08/19 15:42:26   bidir                False
+08/19 15:42:26   bidir_projection     False
+08/19 15:42:26   binary               False
+08/19 15:42:26   cell_size            128
+08/19 15:42:26   cell_type            'GRU'
+08/19 15:42:26   character_level      False
+08/19 15:42:26   checkpoints          []
+08/19 15:42:26   conditional_rnn      False
+08/19 15:42:26   config               '../config/api2nl.yaml'
+08/19 15:42:26   data_dir             '../data_pre'
+08/19 15:42:26   debug                False
+08/19 15:42:26   decay_after_n_epoch  3
+08/19 15:42:26   decay_every_n_epoch  1
+08/19 15:42:26   decay_if_no_progress None
+08/19 15:42:26   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 15:42:26   description          'default configuration\nnext line of description\nlast line\n'
+08/19 15:42:26   dev_prefix           ['valid']
+08/19 15:42:26   early_stopping       True
+08/19 15:42:26   embedding_size       128
+08/19 15:42:26   embeddings_on_cpu    True
+08/19 15:42:26   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 15:42:26   ensemble             False
+08/19 15:42:26   eval_burn_in         0
+08/19 15:42:26   feed_previous        0.0
+08/19 15:42:26   final_state          'last'
+08/19 15:42:26   freeze_variables     []
+08/19 15:42:26   generate_first       True
+08/19 15:42:26   gpu_id               0
+08/19 15:42:26   highway_layers       0
+08/19 15:42:26   initial_state_dropout 0.0
+08/19 15:42:26   initializer          None
+08/19 15:42:26   input_layer_dropout  0.0
+08/19 15:42:26   input_layers         None
+08/19 15:42:26   keep_best            5
+08/19 15:42:26   keep_every_n_hours   0
+08/19 15:42:26   label                'default'
+08/19 15:42:26   layer_norm           False
+08/19 15:42:26   layers               1
+08/19 15:42:26   learning_rate        0.5
+08/19 15:42:26   learning_rate_decay_factor 0.95
+08/19 15:42:26   len_normalization    1.0
+08/19 15:42:26   log_file             'log.txt'
+08/19 15:42:26   loss_function        'xent'
+08/19 15:42:26   max_dev_size         0
+08/19 15:42:26   max_epochs           50
+08/19 15:42:26   max_gradient_norm    5.0
+08/19 15:42:26   max_len              50
+08/19 15:42:26   max_steps            500000
+08/19 15:42:26   max_test_size        0
+08/19 15:42:26   max_to_keep          1
+08/19 15:42:26   max_train_size       0
+08/19 15:42:26   maxout_stride        None
+08/19 15:42:26   mem_fraction         1.0
+08/19 15:42:26   min_learning_rate    1e-06
+08/19 15:42:26   model_dir            '../data_pre/model/api2nl'
+08/19 15:42:26   moving_average       None
+08/19 15:42:26   no_gpu               False
+08/19 15:42:26   optimizer            'sgd'
+08/19 15:42:26   orthogonal_init      False
+08/19 15:42:26   output               None
+08/19 15:42:26   output_dropout       0.0
+08/19 15:42:26   parallel_iterations  16
+08/19 15:42:26   pervasive_dropout    False
+08/19 15:42:26   pooling_avg          True
+08/19 15:42:26   post_process_script  None
+08/19 15:42:26   pred_deep_layer      False
+08/19 15:42:26   pred_edits           False
+08/19 15:42:26   pred_embed_proj      True
+08/19 15:42:26   pred_maxout_layer    True
+08/19 15:42:26   purge                False
+08/19 15:42:26   raw_output           False
+08/19 15:42:26   read_ahead           1
+08/19 15:42:26   remove_unk           False
+08/19 15:42:26   reverse_input        True
+08/19 15:42:26   rnn_feed_attn        True
+08/19 15:42:26   rnn_input_dropout    0.0
+08/19 15:42:26   rnn_output_dropout   0.0
+08/19 15:42:26   rnn_state_dropout    0.0
+08/19 15:42:26   save                 False
+08/19 15:42:26   score_function       'nltk_corpus_bleu'
+08/19 15:42:26   script_dir           'scripts'
+08/19 15:42:26   sgd_after_n_epoch    None
+08/19 15:42:26   sgd_learning_rate    1.0
+08/19 15:42:26   shuffle              True
+08/19 15:42:26   softmax_temperature  1.0
+08/19 15:42:26   steps_per_checkpoint 2000
+08/19 15:42:26   steps_per_eval       2000
+08/19 15:42:26   swap_memory          True
+08/19 15:42:26   tie_embeddings       False
+08/19 15:42:26   time_pooling         None
+08/19 15:42:26   train                True
+08/19 15:42:26   train_initial_states True
+08/19 15:42:26   train_prefix         'train'
+08/19 15:42:26   truncate_lines       True
+08/19 15:42:26   update_first         False
+08/19 15:42:26   use_dropout          False
+08/19 15:42:26   use_lstm_full_state  False
+08/19 15:42:26   use_previous_word    True
+08/19 15:42:26   verbose              True
+08/19 15:42:26   vocab_prefix         'vocab'
+08/19 15:42:26   weight_scale         None
+08/19 15:42:26   word_dropout         0.0
+08/19 15:42:26 python random seed: 6702720251765433210
+08/19 15:42:26 tf random seed:     4625606040952683853
+08/19 15:42:27 creating model
+08/19 15:42:27 using device: /gpu:0
+08/19 15:42:27 reading vocabularies
+08/19 15:42:27 creating model
+08/19 15:42:28 Trainable parameters:
+08/19 15:42:28 embedding_api:0
+08/19 15:42:28 encoder_api/initial_state:0
+08/19 15:42:28 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 15:42:28 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 15:42:28 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 15:42:28 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 15:42:28 embedding_nl:0
+08/19 15:42:28 decoder_nl/api/initial_state_projection/kernel:0
+08/19 15:42:28 decoder_nl/api/initial_state_projection/bias:0
+08/19 15:42:28 attention_api/W_a/kernel:0
+08/19 15:42:28 attention_api/W_a/bias:0
+08/19 15:42:28 attention_api/U_a/kernel:0
+08/19 15:42:28 attention_api/v_a:0
+08/19 15:42:28 decoder_nl/attention_api/W_a/kernel:0
+08/19 15:42:28 decoder_nl/attention_api/W_a/bias:0
+08/19 15:42:28 decoder_nl/attention_api/U_a/kernel:0
+08/19 15:42:28 decoder_nl/attention_api/v_a:0
+08/19 15:42:28 decoder_nl/maxout/kernel:0
+08/19 15:42:28 decoder_nl/maxout/bias:0
+08/19 15:42:28 decoder_nl/softmax0/kernel:0
+08/19 15:42:28 decoder_nl/softmax1/kernel:0
+08/19 15:42:28 decoder_nl/softmax1/bias:0
+08/19 15:42:28 decoder_nl/gru_cell/gates/bias:0
+08/19 15:42:28 decoder_nl/gru_cell/gates/kernel:0
+08/19 15:42:28 decoder_nl/gru_cell/candidate/bias:0
+08/19 15:42:28 decoder_nl/gru_cell/candidate/kernel:0
+08/19 15:42:40 model parameters (29)
+08/19 15:42:40   attention_api/U_a/kernel:0 (128, 128)
+08/19 15:42:40   attention_api/W_a/bias:0 (128,)
+08/19 15:42:40   attention_api/W_a/kernel:0 (128, 128)
+08/19 15:42:40   attention_api/v_a:0 (128,)
+08/19 15:42:40   baseline_step:0 ()
+08/19 15:42:40   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 15:42:40   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 15:42:40   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 15:42:40   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 15:42:40   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 15:42:40   decoder_nl/attention_api/v_a:0 (128,)
+08/19 15:42:40   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 15:42:40   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 15:42:40   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 15:42:40   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 15:42:40   decoder_nl/maxout/bias:0 (128,)
+08/19 15:42:40   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 15:42:40   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 15:42:40   decoder_nl/softmax1/bias:0 (50004,)
+08/19 15:42:40   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 15:42:40   embedding_api:0 (33082, 128)
+08/19 15:42:40   embedding_nl:0 (50004, 128)
+08/19 15:42:40   encoder_api/initial_state:0 (128,)
+08/19 15:42:40   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 15:42:40   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 15:42:40   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 15:42:40   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 15:42:40   global_step:0 ()
+08/19 15:42:40   learning_rate:0 ()
+08/19 15:42:40 number of parameters: 17.47M
+08/19 15:42:42 global step: 0
+08/19 15:42:42 baseline step: 0
+08/19 15:42:42 reading training data
+08/19 15:42:42 total line count: 340922
+08/19 15:42:49   lines read: 100000
+08/19 15:42:56   lines read: 200000
+08/19 15:43:03   lines read: 300000
+08/19 15:43:06 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 15:43:06 lines reads: 340922
+08/19 15:43:06 reading development data
+08/19 15:43:07 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 15:43:07 lines reads: 18940
+08/19 15:43:08 starting training
+08/19 15:44:20 label: default
+08/19 15:44:20 description:
+  default configuration
+  next line of description
+  last line
+08/19 15:44:20 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 15:44:20 tensorflow version: 1.5.0
+08/19 15:44:20 program arguments
+08/19 15:44:20   aggregation_method   'sum'
+08/19 15:44:20   align_encoder_id     0
+08/19 15:44:20   allow_growth         True
+08/19 15:44:20   attention_type       'global'
+08/19 15:44:20   attn_filter_length   0
+08/19 15:44:20   attn_filters         0
+08/19 15:44:20   attn_prev_word       False
+08/19 15:44:20   attn_size            128
+08/19 15:44:20   attn_temperature     1.0
+08/19 15:44:20   attn_window_size     0
+08/19 15:44:20   average              False
+08/19 15:44:20   batch_mode           'standard'
+08/19 15:44:20   batch_size           32
+08/19 15:44:20   beam_size            2
+08/19 15:44:20   bidir                False
+08/19 15:44:20   bidir_projection     False
+08/19 15:44:20   binary               False
+08/19 15:44:20   cell_size            128
+08/19 15:44:20   cell_type            'GRU'
+08/19 15:44:20   character_level      False
+08/19 15:44:20   checkpoints          []
+08/19 15:44:20   conditional_rnn      False
+08/19 15:44:20   config               '../config/api2nl.yaml'
+08/19 15:44:20   data_dir             '../data_pre'
+08/19 15:44:20   debug                False
+08/19 15:44:20   decay_after_n_epoch  3
+08/19 15:44:20   decay_every_n_epoch  1
+08/19 15:44:20   decay_if_no_progress None
+08/19 15:44:20   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 15:44:20   description          'default configuration\nnext line of description\nlast line\n'
+08/19 15:44:20   dev_prefix           ['valid']
+08/19 15:44:20   early_stopping       True
+08/19 15:44:20   embedding_size       128
+08/19 15:44:20   embeddings_on_cpu    True
+08/19 15:44:20   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 15:44:20   ensemble             False
+08/19 15:44:20   eval_burn_in         0
+08/19 15:44:20   feed_previous        0.0
+08/19 15:44:20   final_state          'last'
+08/19 15:44:20   freeze_variables     []
+08/19 15:44:20   generate_first       True
+08/19 15:44:20   gpu_id               0
+08/19 15:44:20   highway_layers       0
+08/19 15:44:20   initial_state_dropout 0.0
+08/19 15:44:20   initializer          None
+08/19 15:44:20   input_layer_dropout  0.0
+08/19 15:44:20   input_layers         None
+08/19 15:44:20   keep_best            5
+08/19 15:44:20   keep_every_n_hours   0
+08/19 15:44:20   label                'default'
+08/19 15:44:20   layer_norm           False
+08/19 15:44:20   layers               1
+08/19 15:44:20   learning_rate        0.5
+08/19 15:44:20   learning_rate_decay_factor 0.95
+08/19 15:44:20   len_normalization    1.0
+08/19 15:44:20   log_file             'log.txt'
+08/19 15:44:20   loss_function        'xent'
+08/19 15:44:20   max_dev_size         0
+08/19 15:44:20   max_epochs           50
+08/19 15:44:20   max_gradient_norm    5.0
+08/19 15:44:20   max_len              50
+08/19 15:44:20   max_steps            500000
+08/19 15:44:20   max_test_size        0
+08/19 15:44:20   max_to_keep          1
+08/19 15:44:20   max_train_size       0
+08/19 15:44:20   maxout_stride        None
+08/19 15:44:20   mem_fraction         1.0
+08/19 15:44:20   min_learning_rate    1e-06
+08/19 15:44:20   model_dir            '../data_pre/model/api2nl'
+08/19 15:44:20   moving_average       None
+08/19 15:44:20   no_gpu               False
+08/19 15:44:20   optimizer            'sgd'
+08/19 15:44:20   orthogonal_init      False
+08/19 15:44:20   output               None
+08/19 15:44:20   output_dropout       0.0
+08/19 15:44:20   parallel_iterations  16
+08/19 15:44:20   pervasive_dropout    False
+08/19 15:44:20   pooling_avg          True
+08/19 15:44:20   post_process_script  None
+08/19 15:44:20   pred_deep_layer      False
+08/19 15:44:20   pred_edits           False
+08/19 15:44:20   pred_embed_proj      True
+08/19 15:44:20   pred_maxout_layer    True
+08/19 15:44:20   purge                False
+08/19 15:44:20   raw_output           False
+08/19 15:44:20   read_ahead           1
+08/19 15:44:20   remove_unk           False
+08/19 15:44:20   reverse_input        True
+08/19 15:44:20   rnn_feed_attn        True
+08/19 15:44:20   rnn_input_dropout    0.0
+08/19 15:44:20   rnn_output_dropout   0.0
+08/19 15:44:20   rnn_state_dropout    0.0
+08/19 15:44:20   save                 False
+08/19 15:44:20   score_function       'nltk_corpus_bleu'
+08/19 15:44:20   script_dir           'scripts'
+08/19 15:44:20   sgd_after_n_epoch    None
+08/19 15:44:20   sgd_learning_rate    1.0
+08/19 15:44:20   shuffle              True
+08/19 15:44:20   softmax_temperature  1.0
+08/19 15:44:20   steps_per_checkpoint 2000
+08/19 15:44:20   steps_per_eval       2000
+08/19 15:44:20   swap_memory          True
+08/19 15:44:20   tie_embeddings       False
+08/19 15:44:20   time_pooling         None
+08/19 15:44:20   train                True
+08/19 15:44:20   train_initial_states True
+08/19 15:44:20   train_prefix         'train'
+08/19 15:44:20   truncate_lines       True
+08/19 15:44:20   update_first         False
+08/19 15:44:20   use_dropout          False
+08/19 15:44:20   use_lstm_full_state  False
+08/19 15:44:20   use_previous_word    True
+08/19 15:44:20   verbose              True
+08/19 15:44:20   vocab_prefix         'vocab'
+08/19 15:44:20   weight_scale         None
+08/19 15:44:20   word_dropout         0.0
+08/19 15:44:20 python random seed: 4170237265482844042
+08/19 15:44:20 tf random seed:     3110210796000874952
+08/19 15:44:21 creating model
+08/19 15:44:21 using device: /gpu:0
+08/19 15:44:21 reading vocabularies
+08/19 15:44:21 creating model
+08/19 15:44:23 Trainable parameters:
+08/19 15:44:23 embedding_api:0
+08/19 15:44:23 encoder_api/initial_state:0
+08/19 15:44:23 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 15:44:23 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 15:44:23 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 15:44:23 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 15:44:23 embedding_nl:0
+08/19 15:44:23 decoder_nl/api/initial_state_projection/kernel:0
+08/19 15:44:23 decoder_nl/api/initial_state_projection/bias:0
+08/19 15:44:23 attention_api/W_a/kernel:0
+08/19 15:44:23 attention_api/W_a/bias:0
+08/19 15:44:23 attention_api/U_a/kernel:0
+08/19 15:44:23 attention_api/v_a:0
+08/19 15:44:23 decoder_nl/attention_api/W_a/kernel:0
+08/19 15:44:23 decoder_nl/attention_api/W_a/bias:0
+08/19 15:44:23 decoder_nl/attention_api/U_a/kernel:0
+08/19 15:44:23 decoder_nl/attention_api/v_a:0
+08/19 15:44:23 decoder_nl/maxout/kernel:0
+08/19 15:44:23 decoder_nl/maxout/bias:0
+08/19 15:44:23 decoder_nl/softmax0/kernel:0
+08/19 15:44:23 decoder_nl/softmax1/kernel:0
+08/19 15:44:23 decoder_nl/softmax1/bias:0
+08/19 15:44:23 decoder_nl/gru_cell/gates/bias:0
+08/19 15:44:23 decoder_nl/gru_cell/gates/kernel:0
+08/19 15:44:23 decoder_nl/gru_cell/candidate/bias:0
+08/19 15:44:23 decoder_nl/gru_cell/candidate/kernel:0
+08/19 15:44:34 model parameters (29)
+08/19 15:44:34   attention_api/U_a/kernel:0 (128, 128)
+08/19 15:44:34   attention_api/W_a/bias:0 (128,)
+08/19 15:44:34   attention_api/W_a/kernel:0 (128, 128)
+08/19 15:44:34   attention_api/v_a:0 (128,)
+08/19 15:44:34   baseline_step:0 ()
+08/19 15:44:34   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 15:44:34   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 15:44:34   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 15:44:34   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 15:44:34   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 15:44:34   decoder_nl/attention_api/v_a:0 (128,)
+08/19 15:44:34   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 15:44:34   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 15:44:34   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 15:44:34   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 15:44:34   decoder_nl/maxout/bias:0 (128,)
+08/19 15:44:34   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 15:44:34   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 15:44:34   decoder_nl/softmax1/bias:0 (50004,)
+08/19 15:44:34   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 15:44:34   embedding_api:0 (33082, 128)
+08/19 15:44:34   embedding_nl:0 (50004, 128)
+08/19 15:44:34   encoder_api/initial_state:0 (128,)
+08/19 15:44:34   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 15:44:34   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 15:44:34   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 15:44:34   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 15:44:34   global_step:0 ()
+08/19 15:44:34   learning_rate:0 ()
+08/19 15:44:34 number of parameters: 17.47M
+08/19 15:44:36 global step: 0
+08/19 15:44:37 baseline step: 0
+08/19 15:44:37 reading training data
+08/19 15:44:37 total line count: 340922
+08/19 15:44:44   lines read: 100000
+08/19 15:44:51   lines read: 200000
+08/19 15:45:16 label: default
+08/19 15:45:16 description:
+  default configuration
+  next line of description
+  last line
+08/19 15:45:16 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 15:45:16 tensorflow version: 1.5.0
+08/19 15:45:16 program arguments
+08/19 15:45:16   aggregation_method   'sum'
+08/19 15:45:16   align_encoder_id     0
+08/19 15:45:16   allow_growth         True
+08/19 15:45:16   attention_type       'global'
+08/19 15:45:16   attn_filter_length   0
+08/19 15:45:16   attn_filters         0
+08/19 15:45:16   attn_prev_word       False
+08/19 15:45:16   attn_size            128
+08/19 15:45:16   attn_temperature     1.0
+08/19 15:45:16   attn_window_size     0
+08/19 15:45:16   average              False
+08/19 15:45:16   batch_mode           'standard'
+08/19 15:45:16   batch_size           32
+08/19 15:45:16   beam_size            2
+08/19 15:45:16   bidir                False
+08/19 15:45:16   bidir_projection     False
+08/19 15:45:16   binary               False
+08/19 15:45:16   cell_size            128
+08/19 15:45:16   cell_type            'GRU'
+08/19 15:45:16   character_level      False
+08/19 15:45:16   checkpoints          []
+08/19 15:45:16   conditional_rnn      False
+08/19 15:45:16   config               '../config/api2nl.yaml'
+08/19 15:45:16   data_dir             '../data_pre'
+08/19 15:45:16   debug                False
+08/19 15:45:16   decay_after_n_epoch  3
+08/19 15:45:16   decay_every_n_epoch  1
+08/19 15:45:16   decay_if_no_progress None
+08/19 15:45:16   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 15:45:16   description          'default configuration\nnext line of description\nlast line\n'
+08/19 15:45:16   dev_prefix           ['valid']
+08/19 15:45:16   early_stopping       True
+08/19 15:45:16   embedding_size       128
+08/19 15:45:16   embeddings_on_cpu    True
+08/19 15:45:16   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 15:45:16   ensemble             False
+08/19 15:45:16   eval_burn_in         0
+08/19 15:45:16   feed_previous        0.0
+08/19 15:45:16   final_state          'last'
+08/19 15:45:16   freeze_variables     []
+08/19 15:45:16   generate_first       True
+08/19 15:45:16   gpu_id               0
+08/19 15:45:16   highway_layers       0
+08/19 15:45:16   initial_state_dropout 0.0
+08/19 15:45:16   initializer          None
+08/19 15:45:16   input_layer_dropout  0.0
+08/19 15:45:16   input_layers         None
+08/19 15:45:16   keep_best            5
+08/19 15:45:16   keep_every_n_hours   0
+08/19 15:45:16   label                'default'
+08/19 15:45:16   layer_norm           False
+08/19 15:45:16   layers               1
+08/19 15:45:16   learning_rate        0.5
+08/19 15:45:16   learning_rate_decay_factor 0.95
+08/19 15:45:16   len_normalization    1.0
+08/19 15:45:16   log_file             'log.txt'
+08/19 15:45:16   loss_function        'xent'
+08/19 15:45:16   max_dev_size         0
+08/19 15:45:16   max_epochs           50
+08/19 15:45:16   max_gradient_norm    5.0
+08/19 15:45:16   max_len              50
+08/19 15:45:16   max_steps            500000
+08/19 15:45:16   max_test_size        0
+08/19 15:45:16   max_to_keep          1
+08/19 15:45:16   max_train_size       0
+08/19 15:45:16   maxout_stride        None
+08/19 15:45:16   mem_fraction         1.0
+08/19 15:45:16   min_learning_rate    1e-06
+08/19 15:45:16   model_dir            '../data_pre/model/api2nl'
+08/19 15:45:16   moving_average       None
+08/19 15:45:16   no_gpu               False
+08/19 15:45:16   optimizer            'sgd'
+08/19 15:45:16   orthogonal_init      False
+08/19 15:45:16   output               None
+08/19 15:45:16   output_dropout       0.0
+08/19 15:45:16   parallel_iterations  16
+08/19 15:45:16   pervasive_dropout    False
+08/19 15:45:16   pooling_avg          True
+08/19 15:45:16   post_process_script  None
+08/19 15:45:16   pred_deep_layer      False
+08/19 15:45:16   pred_edits           False
+08/19 15:45:16   pred_embed_proj      True
+08/19 15:45:16   pred_maxout_layer    True
+08/19 15:45:16   purge                False
+08/19 15:45:16   raw_output           False
+08/19 15:45:16   read_ahead           1
+08/19 15:45:16   remove_unk           False
+08/19 15:45:16   reverse_input        True
+08/19 15:45:16   rnn_feed_attn        True
+08/19 15:45:16   rnn_input_dropout    0.0
+08/19 15:45:16   rnn_output_dropout   0.0
+08/19 15:45:16   rnn_state_dropout    0.0
+08/19 15:45:16   save                 False
+08/19 15:45:16   score_function       'nltk_corpus_bleu'
+08/19 15:45:16   script_dir           'scripts'
+08/19 15:45:16   sgd_after_n_epoch    None
+08/19 15:45:16   sgd_learning_rate    1.0
+08/19 15:45:16   shuffle              True
+08/19 15:45:16   softmax_temperature  1.0
+08/19 15:45:16   steps_per_checkpoint 2000
+08/19 15:45:16   steps_per_eval       2000
+08/19 15:45:16   swap_memory          True
+08/19 15:45:16   tie_embeddings       False
+08/19 15:45:16   time_pooling         None
+08/19 15:45:16   train                True
+08/19 15:45:16   train_initial_states True
+08/19 15:45:16   train_prefix         'train'
+08/19 15:45:16   truncate_lines       True
+08/19 15:45:16   update_first         False
+08/19 15:45:16   use_dropout          False
+08/19 15:45:16   use_lstm_full_state  False
+08/19 15:45:16   use_previous_word    True
+08/19 15:45:16   verbose              True
+08/19 15:45:16   vocab_prefix         'vocab'
+08/19 15:45:16   weight_scale         None
+08/19 15:45:16   word_dropout         0.0
+08/19 15:45:16 python random seed: 7066145745345060879
+08/19 15:45:16 tf random seed:     2050469761913749203
+08/19 15:45:17 creating model
+08/19 15:45:17 using device: /gpu:0
+08/19 15:45:17 reading vocabularies
+08/19 15:45:17 creating model
+08/19 15:45:20 Trainable parameters:
+08/19 15:45:20 embedding_api:0
+08/19 15:45:20 encoder_api/initial_state:0
+08/19 15:45:20 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 15:45:20 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 15:45:20 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 15:45:20 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 15:45:20 embedding_nl:0
+08/19 15:45:20 decoder_nl/api/initial_state_projection/kernel:0
+08/19 15:45:20 decoder_nl/api/initial_state_projection/bias:0
+08/19 15:45:20 attention_api/W_a/kernel:0
+08/19 15:45:20 attention_api/W_a/bias:0
+08/19 15:45:20 attention_api/U_a/kernel:0
+08/19 15:45:20 attention_api/v_a:0
+08/19 15:45:20 decoder_nl/attention_api/W_a/kernel:0
+08/19 15:45:20 decoder_nl/attention_api/W_a/bias:0
+08/19 15:45:20 decoder_nl/attention_api/U_a/kernel:0
+08/19 15:45:20 decoder_nl/attention_api/v_a:0
+08/19 15:45:20 decoder_nl/maxout/kernel:0
+08/19 15:45:20 decoder_nl/maxout/bias:0
+08/19 15:45:20 decoder_nl/softmax0/kernel:0
+08/19 15:45:20 decoder_nl/softmax1/kernel:0
+08/19 15:45:20 decoder_nl/softmax1/bias:0
+08/19 15:45:20 decoder_nl/gru_cell/gates/bias:0
+08/19 15:45:20 decoder_nl/gru_cell/gates/kernel:0
+08/19 15:45:20 decoder_nl/gru_cell/candidate/bias:0
+08/19 15:45:20 decoder_nl/gru_cell/candidate/kernel:0
+08/19 15:45:46 model parameters (29)
+08/19 15:45:46   attention_api/U_a/kernel:0 (128, 128)
+08/19 15:45:46   attention_api/W_a/bias:0 (128,)
+08/19 15:45:46   attention_api/W_a/kernel:0 (128, 128)
+08/19 15:45:46   attention_api/v_a:0 (128,)
+08/19 15:45:46   baseline_step:0 ()
+08/19 15:45:46   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 15:45:46   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 15:45:46   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 15:45:46   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 15:45:46   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 15:45:46   decoder_nl/attention_api/v_a:0 (128,)
+08/19 15:45:46   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 15:45:46   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 15:45:46   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 15:45:46   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 15:45:46   decoder_nl/maxout/bias:0 (128,)
+08/19 15:45:46   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 15:45:46   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 15:45:46   decoder_nl/softmax1/bias:0 (50004,)
+08/19 15:45:46   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 15:45:46   embedding_api:0 (33082, 128)
+08/19 15:45:46   embedding_nl:0 (50004, 128)
+08/19 15:45:46   encoder_api/initial_state:0 (128,)
+08/19 15:45:46   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 15:45:46   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 15:45:46   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 15:45:46   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 15:45:46   global_step:0 ()
+08/19 15:45:46   learning_rate:0 ()
+08/19 15:45:46 number of parameters: 17.47M
+08/19 15:45:49 global step: 0
+08/19 15:45:49 baseline step: 0
+08/19 15:45:49 reading training data
+08/19 15:45:49 total line count: 340922
+08/19 15:46:03   lines read: 100000
+08/19 15:46:17   lines read: 200000
+08/19 15:46:30   lines read: 300000
+08/19 15:46:35 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 15:46:35 lines reads: 340922
+08/19 15:46:35 reading development data
+08/19 15:46:38 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 15:46:38 lines reads: 18940
+08/19 15:46:38 starting training
+08/19 15:52:45 label: default
+08/19 15:52:45 description:
+  default configuration
+  next line of description
+  last line
+08/19 15:52:45 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 15:52:45 tensorflow version: 1.5.0
+08/19 15:52:45 program arguments
+08/19 15:52:45   aggregation_method   'sum'
+08/19 15:52:45   align_encoder_id     0
+08/19 15:52:45   allow_growth         True
+08/19 15:52:45   attention_type       'global'
+08/19 15:52:45   attn_filter_length   0
+08/19 15:52:45   attn_filters         0
+08/19 15:52:45   attn_prev_word       False
+08/19 15:52:45   attn_size            128
+08/19 15:52:45   attn_temperature     1.0
+08/19 15:52:45   attn_window_size     0
+08/19 15:52:45   average              False
+08/19 15:52:45   batch_mode           'standard'
+08/19 15:52:45   batch_size           32
+08/19 15:52:45   beam_size            2
+08/19 15:52:45   bidir                False
+08/19 15:52:45   bidir_projection     False
+08/19 15:52:45   binary               False
+08/19 15:52:45   cell_size            128
+08/19 15:52:45   cell_type            'GRU'
+08/19 15:52:45   character_level      False
+08/19 15:52:45   checkpoints          []
+08/19 15:52:45   conditional_rnn      False
+08/19 15:52:45   config               '../config/api2nl.yaml'
+08/19 15:52:45   data_dir             '../data_pre'
+08/19 15:52:45   debug                False
+08/19 15:52:45   decay_after_n_epoch  3
+08/19 15:52:45   decay_every_n_epoch  1
+08/19 15:52:45   decay_if_no_progress None
+08/19 15:52:45   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 15:52:45   description          'default configuration\nnext line of description\nlast line\n'
+08/19 15:52:45   dev_prefix           ['valid']
+08/19 15:52:45   early_stopping       True
+08/19 15:52:45   embedding_size       128
+08/19 15:52:45   embeddings_on_cpu    True
+08/19 15:52:45   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 15:52:45   ensemble             False
+08/19 15:52:45   eval_burn_in         0
+08/19 15:52:45   feed_previous        0.0
+08/19 15:52:45   final_state          'last'
+08/19 15:52:45   freeze_variables     []
+08/19 15:52:45   generate_first       True
+08/19 15:52:45   gpu_id               0
+08/19 15:52:45   highway_layers       0
+08/19 15:52:45   initial_state_dropout 0.0
+08/19 15:52:45   initializer          None
+08/19 15:52:45   input_layer_dropout  0.0
+08/19 15:52:45   input_layers         None
+08/19 15:52:45   keep_best            5
+08/19 15:52:45   keep_every_n_hours   0
+08/19 15:52:45   label                'default'
+08/19 15:52:45   layer_norm           False
+08/19 15:52:45   layers               1
+08/19 15:52:45   learning_rate        0.5
+08/19 15:52:45   learning_rate_decay_factor 0.95
+08/19 15:52:45   len_normalization    1.0
+08/19 15:52:45   log_file             'log.txt'
+08/19 15:52:45   loss_function        'xent'
+08/19 15:52:45   max_dev_size         0
+08/19 15:52:45   max_epochs           50
+08/19 15:52:45   max_gradient_norm    5.0
+08/19 15:52:45   max_len              50
+08/19 15:52:45   max_steps            500000
+08/19 15:52:45   max_test_size        0
+08/19 15:52:45   max_to_keep          1
+08/19 15:52:45   max_train_size       0
+08/19 15:52:45   maxout_stride        None
+08/19 15:52:45   mem_fraction         1.0
+08/19 15:52:45   min_learning_rate    1e-06
+08/19 15:52:45   model_dir            '../data_pre/model/api2nl'
+08/19 15:52:45   moving_average       None
+08/19 15:52:45   no_gpu               False
+08/19 15:52:45   optimizer            'sgd'
+08/19 15:52:45   orthogonal_init      False
+08/19 15:52:45   output               None
+08/19 15:52:45   output_dropout       0.0
+08/19 15:52:45   parallel_iterations  16
+08/19 15:52:45   pervasive_dropout    False
+08/19 15:52:45   pooling_avg          True
+08/19 15:52:45   post_process_script  None
+08/19 15:52:45   pred_deep_layer      False
+08/19 15:52:45   pred_edits           False
+08/19 15:52:45   pred_embed_proj      True
+08/19 15:52:45   pred_maxout_layer    True
+08/19 15:52:45   purge                False
+08/19 15:52:45   raw_output           False
+08/19 15:52:45   read_ahead           1
+08/19 15:52:45   remove_unk           False
+08/19 15:52:45   reverse_input        True
+08/19 15:52:45   rnn_feed_attn        True
+08/19 15:52:45   rnn_input_dropout    0.0
+08/19 15:52:45   rnn_output_dropout   0.0
+08/19 15:52:45   rnn_state_dropout    0.0
+08/19 15:52:45   save                 False
+08/19 15:52:45   score_function       'nltk_corpus_bleu'
+08/19 15:52:45   script_dir           'scripts'
+08/19 15:52:45   sgd_after_n_epoch    None
+08/19 15:52:45   sgd_learning_rate    1.0
+08/19 15:52:45   shuffle              True
+08/19 15:52:45   softmax_temperature  1.0
+08/19 15:52:45   steps_per_checkpoint 2000
+08/19 15:52:45   steps_per_eval       2000
+08/19 15:52:45   swap_memory          True
+08/19 15:52:45   tie_embeddings       False
+08/19 15:52:45   time_pooling         None
+08/19 15:52:45   train                True
+08/19 15:52:45   train_initial_states True
+08/19 15:52:45   train_prefix         'train'
+08/19 15:52:45   truncate_lines       True
+08/19 15:52:45   update_first         False
+08/19 15:52:45   use_dropout          False
+08/19 15:52:45   use_lstm_full_state  False
+08/19 15:52:45   use_previous_word    True
+08/19 15:52:45   verbose              True
+08/19 15:52:45   vocab_prefix         'vocab'
+08/19 15:52:45   weight_scale         None
+08/19 15:52:45   word_dropout         0.0
+08/19 15:52:45 python random seed: 2300636194531248052
+08/19 15:52:45 tf random seed:     2552801939004929762
+08/19 15:52:46 creating model
+08/19 15:52:46 using device: /gpu:0
+08/19 15:52:46 reading vocabularies
+08/19 15:52:46 creating model
+08/19 15:52:49 Trainable parameters:
+08/19 15:52:49 embedding_api:0
+08/19 15:52:49 encoder_api/initial_state:0
+08/19 15:52:49 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 15:52:49 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 15:52:49 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 15:52:49 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 15:52:49 embedding_nl:0
+08/19 15:52:49 decoder_nl/api/initial_state_projection/kernel:0
+08/19 15:52:49 decoder_nl/api/initial_state_projection/bias:0
+08/19 15:52:49 attention_api/W_a/kernel:0
+08/19 15:52:49 attention_api/W_a/bias:0
+08/19 15:52:49 attention_api/U_a/kernel:0
+08/19 15:52:49 attention_api/v_a:0
+08/19 15:52:49 decoder_nl/attention_api/W_a/kernel:0
+08/19 15:52:49 decoder_nl/attention_api/W_a/bias:0
+08/19 15:52:49 decoder_nl/attention_api/U_a/kernel:0
+08/19 15:52:49 decoder_nl/attention_api/v_a:0
+08/19 15:52:49 decoder_nl/maxout/kernel:0
+08/19 15:52:49 decoder_nl/maxout/bias:0
+08/19 15:52:49 decoder_nl/softmax0/kernel:0
+08/19 15:52:49 decoder_nl/softmax1/kernel:0
+08/19 15:52:49 decoder_nl/softmax1/bias:0
+08/19 15:52:49 decoder_nl/gru_cell/gates/bias:0
+08/19 15:52:49 decoder_nl/gru_cell/gates/kernel:0
+08/19 15:52:49 decoder_nl/gru_cell/candidate/bias:0
+08/19 15:52:49 decoder_nl/gru_cell/candidate/kernel:0
+08/19 15:53:15 model parameters (29)
+08/19 15:53:15   attention_api/U_a/kernel:0 (128, 128)
+08/19 15:53:15   attention_api/W_a/bias:0 (128,)
+08/19 15:53:15   attention_api/W_a/kernel:0 (128, 128)
+08/19 15:53:15   attention_api/v_a:0 (128,)
+08/19 15:53:15   baseline_step:0 ()
+08/19 15:53:15   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 15:53:15   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 15:53:15   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 15:53:15   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 15:53:15   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 15:53:15   decoder_nl/attention_api/v_a:0 (128,)
+08/19 15:53:15   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 15:53:15   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 15:53:15   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 15:53:15   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 15:53:15   decoder_nl/maxout/bias:0 (128,)
+08/19 15:53:15   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 15:53:15   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 15:53:15   decoder_nl/softmax1/bias:0 (50004,)
+08/19 15:53:15   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 15:53:15   embedding_api:0 (33082, 128)
+08/19 15:53:15   embedding_nl:0 (50004, 128)
+08/19 15:53:15   encoder_api/initial_state:0 (128,)
+08/19 15:53:15   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 15:53:15   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 15:53:15   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 15:53:15   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 15:53:15   global_step:0 ()
+08/19 15:53:15   learning_rate:0 ()
+08/19 15:53:15 number of parameters: 17.47M
+08/19 15:53:17 global step: 0
+08/19 15:53:17 baseline step: 0
+08/19 15:53:17 reading training data
+08/19 15:53:18 total line count: 340922
+08/19 15:53:31   lines read: 100000
+08/19 15:53:44   lines read: 200000
+08/19 15:53:56   lines read: 300000
+08/19 15:54:02 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 15:54:02 lines reads: 340922
+08/19 15:54:02 reading development data
+08/19 15:54:04 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 15:54:04 lines reads: 18940
+08/19 15:54:05 starting training
+08/19 15:55:30 label: default
+08/19 15:55:30 description:
+  default configuration
+  next line of description
+  last line
+08/19 15:55:30 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 15:55:30 tensorflow version: 1.5.0
+08/19 15:55:30 program arguments
+08/19 15:55:30   aggregation_method   'sum'
+08/19 15:55:30   align_encoder_id     0
+08/19 15:55:30   allow_growth         True
+08/19 15:55:30   attention_type       'global'
+08/19 15:55:30   attn_filter_length   0
+08/19 15:55:30   attn_filters         0
+08/19 15:55:30   attn_prev_word       False
+08/19 15:55:30   attn_size            128
+08/19 15:55:30   attn_temperature     1.0
+08/19 15:55:30   attn_window_size     0
+08/19 15:55:30   average              False
+08/19 15:55:30   batch_mode           'standard'
+08/19 15:55:30   batch_size           32
+08/19 15:55:30   beam_size            2
+08/19 15:55:30   bidir                False
+08/19 15:55:30   bidir_projection     False
+08/19 15:55:30   binary               False
+08/19 15:55:30   cell_size            128
+08/19 15:55:30   cell_type            'GRU'
+08/19 15:55:30   character_level      False
+08/19 15:55:30   checkpoints          []
+08/19 15:55:30   conditional_rnn      False
+08/19 15:55:30   config               '../config/api2nl.yaml'
+08/19 15:55:30   data_dir             '../data_pre'
+08/19 15:55:30   debug                False
+08/19 15:55:30   decay_after_n_epoch  3
+08/19 15:55:30   decay_every_n_epoch  1
+08/19 15:55:30   decay_if_no_progress None
+08/19 15:55:30   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 15:55:30   description          'default configuration\nnext line of description\nlast line\n'
+08/19 15:55:30   dev_prefix           ['valid']
+08/19 15:55:30   early_stopping       True
+08/19 15:55:30   embedding_size       128
+08/19 15:55:30   embeddings_on_cpu    True
+08/19 15:55:30   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 15:55:30   ensemble             False
+08/19 15:55:30   eval_burn_in         0
+08/19 15:55:30   feed_previous        0.0
+08/19 15:55:30   final_state          'last'
+08/19 15:55:30   freeze_variables     []
+08/19 15:55:30   generate_first       True
+08/19 15:55:30   gpu_id               0
+08/19 15:55:30   highway_layers       0
+08/19 15:55:30   initial_state_dropout 0.0
+08/19 15:55:30   initializer          None
+08/19 15:55:30   input_layer_dropout  0.0
+08/19 15:55:30   input_layers         None
+08/19 15:55:30   keep_best            5
+08/19 15:55:30   keep_every_n_hours   0
+08/19 15:55:30   label                'default'
+08/19 15:55:30   layer_norm           False
+08/19 15:55:30   layers               1
+08/19 15:55:30   learning_rate        0.5
+08/19 15:55:30   learning_rate_decay_factor 0.95
+08/19 15:55:30   len_normalization    1.0
+08/19 15:55:30   log_file             'log.txt'
+08/19 15:55:30   loss_function        'xent'
+08/19 15:55:30   max_dev_size         0
+08/19 15:55:30   max_epochs           50
+08/19 15:55:30   max_gradient_norm    5.0
+08/19 15:55:30   max_len              50
+08/19 15:55:30   max_steps            500000
+08/19 15:55:30   max_test_size        0
+08/19 15:55:30   max_to_keep          1
+08/19 15:55:30   max_train_size       0
+08/19 15:55:30   maxout_stride        None
+08/19 15:55:30   mem_fraction         1.0
+08/19 15:55:30   min_learning_rate    1e-06
+08/19 15:55:30   model_dir            '../data_pre/model/api2nl'
+08/19 15:55:30   moving_average       None
+08/19 15:55:30   no_gpu               False
+08/19 15:55:30   optimizer            'sgd'
+08/19 15:55:30   orthogonal_init      False
+08/19 15:55:30   output               None
+08/19 15:55:30   output_dropout       0.0
+08/19 15:55:30   parallel_iterations  16
+08/19 15:55:30   pervasive_dropout    False
+08/19 15:55:30   pooling_avg          True
+08/19 15:55:30   post_process_script  None
+08/19 15:55:30   pred_deep_layer      False
+08/19 15:55:30   pred_edits           False
+08/19 15:55:30   pred_embed_proj      True
+08/19 15:55:30   pred_maxout_layer    True
+08/19 15:55:30   purge                False
+08/19 15:55:30   raw_output           False
+08/19 15:55:30   read_ahead           1
+08/19 15:55:30   remove_unk           False
+08/19 15:55:30   reverse_input        True
+08/19 15:55:30   rnn_feed_attn        True
+08/19 15:55:30   rnn_input_dropout    0.0
+08/19 15:55:30   rnn_output_dropout   0.0
+08/19 15:55:30   rnn_state_dropout    0.0
+08/19 15:55:30   save                 False
+08/19 15:55:30   score_function       'nltk_corpus_bleu'
+08/19 15:55:30   script_dir           'scripts'
+08/19 15:55:30   sgd_after_n_epoch    None
+08/19 15:55:30   sgd_learning_rate    1.0
+08/19 15:55:30   shuffle              True
+08/19 15:55:30   softmax_temperature  1.0
+08/19 15:55:30   steps_per_checkpoint 2000
+08/19 15:55:30   steps_per_eval       2000
+08/19 15:55:30   swap_memory          True
+08/19 15:55:30   tie_embeddings       False
+08/19 15:55:30   time_pooling         None
+08/19 15:55:30   train                True
+08/19 15:55:30   train_initial_states True
+08/19 15:55:30   train_prefix         'train'
+08/19 15:55:30   truncate_lines       True
+08/19 15:55:30   update_first         False
+08/19 15:55:30   use_dropout          False
+08/19 15:55:30   use_lstm_full_state  False
+08/19 15:55:30   use_previous_word    True
+08/19 15:55:30   verbose              True
+08/19 15:55:30   vocab_prefix         'vocab'
+08/19 15:55:30   weight_scale         None
+08/19 15:55:30   word_dropout         0.0
+08/19 15:55:30 python random seed: 6794724419529562298
+08/19 15:55:30 tf random seed:     7846966748228025034
+08/19 15:55:31 creating model
+08/19 15:55:31 using device: /gpu:0
+08/19 15:55:31 reading vocabularies
+08/19 15:55:31 creating model
+08/19 15:55:34 Trainable parameters:
+08/19 15:55:34 embedding_api:0
+08/19 15:55:34 encoder_api/initial_state:0
+08/19 15:55:34 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 15:55:34 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 15:55:34 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 15:55:34 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 15:55:34 embedding_nl:0
+08/19 15:55:34 decoder_nl/api/initial_state_projection/kernel:0
+08/19 15:55:34 decoder_nl/api/initial_state_projection/bias:0
+08/19 15:55:34 attention_api/W_a/kernel:0
+08/19 15:55:34 attention_api/W_a/bias:0
+08/19 15:55:34 attention_api/U_a/kernel:0
+08/19 15:55:34 attention_api/v_a:0
+08/19 15:55:34 decoder_nl/attention_api/W_a/kernel:0
+08/19 15:55:34 decoder_nl/attention_api/W_a/bias:0
+08/19 15:55:34 decoder_nl/attention_api/U_a/kernel:0
+08/19 15:55:34 decoder_nl/attention_api/v_a:0
+08/19 15:55:34 decoder_nl/maxout/kernel:0
+08/19 15:55:34 decoder_nl/maxout/bias:0
+08/19 15:55:34 decoder_nl/softmax0/kernel:0
+08/19 15:55:34 decoder_nl/softmax1/kernel:0
+08/19 15:55:34 decoder_nl/softmax1/bias:0
+08/19 15:55:34 decoder_nl/gru_cell/gates/bias:0
+08/19 15:55:34 decoder_nl/gru_cell/gates/kernel:0
+08/19 15:55:34 decoder_nl/gru_cell/candidate/bias:0
+08/19 15:55:34 decoder_nl/gru_cell/candidate/kernel:0
+08/19 15:56:01 model parameters (29)
+08/19 15:56:01   attention_api/U_a/kernel:0 (128, 128)
+08/19 15:56:01   attention_api/W_a/bias:0 (128,)
+08/19 15:56:01   attention_api/W_a/kernel:0 (128, 128)
+08/19 15:56:01   attention_api/v_a:0 (128,)
+08/19 15:56:01   baseline_step:0 ()
+08/19 15:56:01   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 15:56:01   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 15:56:01   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 15:56:01   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 15:56:01   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 15:56:01   decoder_nl/attention_api/v_a:0 (128,)
+08/19 15:56:01   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 15:56:01   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 15:56:01   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 15:56:01   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 15:56:01   decoder_nl/maxout/bias:0 (128,)
+08/19 15:56:01   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 15:56:01   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 15:56:01   decoder_nl/softmax1/bias:0 (50004,)
+08/19 15:56:01   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 15:56:01   embedding_api:0 (33082, 128)
+08/19 15:56:01   embedding_nl:0 (50004, 128)
+08/19 15:56:01   encoder_api/initial_state:0 (128,)
+08/19 15:56:01   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 15:56:01   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 15:56:01   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 15:56:01   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 15:56:01   global_step:0 ()
+08/19 15:56:01   learning_rate:0 ()
+08/19 15:56:01 number of parameters: 17.47M
+08/19 15:56:03 global step: 0
+08/19 15:56:03 baseline step: 0
+08/19 15:56:03 reading training data
+08/19 15:56:04 total line count: 340922
+08/19 15:56:17   lines read: 100000
+08/19 15:56:30   lines read: 200000
+08/19 15:56:43   lines read: 300000
+08/19 15:56:48 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 15:56:48 lines reads: 340922
+08/19 15:56:48 reading development data
+08/19 15:56:50 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 15:56:50 lines reads: 18940
+08/19 15:56:51 starting training
+08/19 16:00:15 label: default
+08/19 16:00:15 description:
+  default configuration
+  next line of description
+  last line
+08/19 16:00:15 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 16:00:15 tensorflow version: 1.5.0
+08/19 16:00:15 program arguments
+08/19 16:00:15   aggregation_method   'sum'
+08/19 16:00:15   align_encoder_id     0
+08/19 16:00:15   allow_growth         True
+08/19 16:00:15   attention_type       'global'
+08/19 16:00:15   attn_filter_length   0
+08/19 16:00:15   attn_filters         0
+08/19 16:00:15   attn_prev_word       False
+08/19 16:00:15   attn_size            128
+08/19 16:00:15   attn_temperature     1.0
+08/19 16:00:15   attn_window_size     0
+08/19 16:00:15   average              False
+08/19 16:00:15   batch_mode           'standard'
+08/19 16:00:15   batch_size           32
+08/19 16:00:15   beam_size            2
+08/19 16:00:15   bidir                False
+08/19 16:00:15   bidir_projection     False
+08/19 16:00:15   binary               False
+08/19 16:00:15   cell_size            128
+08/19 16:00:15   cell_type            'GRU'
+08/19 16:00:15   character_level      False
+08/19 16:00:15   checkpoints          []
+08/19 16:00:15   conditional_rnn      False
+08/19 16:00:15   config               '../config/api2nl.yaml'
+08/19 16:00:15   data_dir             '../data_pre'
+08/19 16:00:15   debug                False
+08/19 16:00:15   decay_after_n_epoch  3
+08/19 16:00:15   decay_every_n_epoch  1
+08/19 16:00:15   decay_if_no_progress None
+08/19 16:00:15   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 16:00:15   description          'default configuration\nnext line of description\nlast line\n'
+08/19 16:00:15   dev_prefix           ['valid']
+08/19 16:00:15   early_stopping       True
+08/19 16:00:15   embedding_size       128
+08/19 16:00:15   embeddings_on_cpu    True
+08/19 16:00:15   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 16:00:15   ensemble             False
+08/19 16:00:15   eval_burn_in         0
+08/19 16:00:15   feed_previous        0.0
+08/19 16:00:15   final_state          'last'
+08/19 16:00:15   freeze_variables     []
+08/19 16:00:15   generate_first       True
+08/19 16:00:15   gpu_id               0
+08/19 16:00:15   highway_layers       0
+08/19 16:00:15   initial_state_dropout 0.0
+08/19 16:00:15   initializer          None
+08/19 16:00:15   input_layer_dropout  0.0
+08/19 16:00:15   input_layers         None
+08/19 16:00:15   keep_best            5
+08/19 16:00:15   keep_every_n_hours   0
+08/19 16:00:15   label                'default'
+08/19 16:00:15   layer_norm           False
+08/19 16:00:15   layers               1
+08/19 16:00:15   learning_rate        0.5
+08/19 16:00:15   learning_rate_decay_factor 0.95
+08/19 16:00:15   len_normalization    1.0
+08/19 16:00:15   log_file             'log.txt'
+08/19 16:00:15   loss_function        'xent'
+08/19 16:00:15   max_dev_size         0
+08/19 16:00:15   max_epochs           50
+08/19 16:00:15   max_gradient_norm    5.0
+08/19 16:00:15   max_len              50
+08/19 16:00:15   max_steps            500000
+08/19 16:00:15   max_test_size        0
+08/19 16:00:15   max_to_keep          1
+08/19 16:00:15   max_train_size       0
+08/19 16:00:15   maxout_stride        None
+08/19 16:00:15   mem_fraction         1.0
+08/19 16:00:15   min_learning_rate    1e-06
+08/19 16:00:15   model_dir            '../data_pre/model/api2nl'
+08/19 16:00:15   moving_average       None
+08/19 16:00:15   no_gpu               False
+08/19 16:00:15   optimizer            'sgd'
+08/19 16:00:15   orthogonal_init      False
+08/19 16:00:15   output               None
+08/19 16:00:15   output_dropout       0.0
+08/19 16:00:15   parallel_iterations  16
+08/19 16:00:15   pervasive_dropout    False
+08/19 16:00:15   pooling_avg          True
+08/19 16:00:15   post_process_script  None
+08/19 16:00:15   pred_deep_layer      False
+08/19 16:00:15   pred_edits           False
+08/19 16:00:15   pred_embed_proj      True
+08/19 16:00:15   pred_maxout_layer    True
+08/19 16:00:15   purge                False
+08/19 16:00:15   raw_output           False
+08/19 16:00:15   read_ahead           1
+08/19 16:00:15   remove_unk           False
+08/19 16:00:15   reverse_input        True
+08/19 16:00:15   rnn_feed_attn        True
+08/19 16:00:15   rnn_input_dropout    0.0
+08/19 16:00:15   rnn_output_dropout   0.0
+08/19 16:00:15   rnn_state_dropout    0.0
+08/19 16:00:15   save                 False
+08/19 16:00:15   score_function       'nltk_corpus_bleu'
+08/19 16:00:15   script_dir           'scripts'
+08/19 16:00:15   sgd_after_n_epoch    None
+08/19 16:00:15   sgd_learning_rate    1.0
+08/19 16:00:15   shuffle              True
+08/19 16:00:15   softmax_temperature  1.0
+08/19 16:00:15   steps_per_checkpoint 2000
+08/19 16:00:15   steps_per_eval       2000
+08/19 16:00:15   swap_memory          True
+08/19 16:00:15   tie_embeddings       False
+08/19 16:00:15   time_pooling         None
+08/19 16:00:15   train                True
+08/19 16:00:15   train_initial_states True
+08/19 16:00:15   train_prefix         'train'
+08/19 16:00:15   truncate_lines       True
+08/19 16:00:15   update_first         False
+08/19 16:00:15   use_dropout          False
+08/19 16:00:15   use_lstm_full_state  False
+08/19 16:00:15   use_previous_word    True
+08/19 16:00:15   verbose              True
+08/19 16:00:15   vocab_prefix         'vocab'
+08/19 16:00:15   weight_scale         None
+08/19 16:00:15   word_dropout         0.0
+08/19 16:00:15 python random seed: 5287287815001214614
+08/19 16:00:15 tf random seed:     4172132775179278128
+08/19 16:00:16 creating model
+08/19 16:00:16 using device: /gpu:0
+08/19 16:00:16 reading vocabularies
+08/19 16:00:16 creating model
+08/19 16:00:19 Trainable parameters:
+08/19 16:00:19 embedding_api:0
+08/19 16:00:19 encoder_api/initial_state:0
+08/19 16:00:19 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 16:00:19 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 16:00:19 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 16:00:19 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 16:00:19 embedding_nl:0
+08/19 16:00:19 decoder_nl/api/initial_state_projection/kernel:0
+08/19 16:00:19 decoder_nl/api/initial_state_projection/bias:0
+08/19 16:00:19 attention_api/W_a/kernel:0
+08/19 16:00:19 attention_api/W_a/bias:0
+08/19 16:00:19 attention_api/U_a/kernel:0
+08/19 16:00:19 attention_api/v_a:0
+08/19 16:00:19 decoder_nl/attention_api/W_a/kernel:0
+08/19 16:00:19 decoder_nl/attention_api/W_a/bias:0
+08/19 16:00:19 decoder_nl/attention_api/U_a/kernel:0
+08/19 16:00:19 decoder_nl/attention_api/v_a:0
+08/19 16:00:19 decoder_nl/maxout/kernel:0
+08/19 16:00:19 decoder_nl/maxout/bias:0
+08/19 16:00:19 decoder_nl/softmax0/kernel:0
+08/19 16:00:19 decoder_nl/softmax1/kernel:0
+08/19 16:00:19 decoder_nl/softmax1/bias:0
+08/19 16:00:19 decoder_nl/gru_cell/gates/bias:0
+08/19 16:00:19 decoder_nl/gru_cell/gates/kernel:0
+08/19 16:00:19 decoder_nl/gru_cell/candidate/bias:0
+08/19 16:00:19 decoder_nl/gru_cell/candidate/kernel:0
+08/19 16:00:45 model parameters (29)
+08/19 16:00:45   attention_api/U_a/kernel:0 (128, 128)
+08/19 16:00:45   attention_api/W_a/bias:0 (128,)
+08/19 16:00:45   attention_api/W_a/kernel:0 (128, 128)
+08/19 16:00:45   attention_api/v_a:0 (128,)
+08/19 16:00:45   baseline_step:0 ()
+08/19 16:00:45   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 16:00:45   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 16:00:45   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 16:00:45   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 16:00:45   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 16:00:45   decoder_nl/attention_api/v_a:0 (128,)
+08/19 16:00:45   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 16:00:45   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 16:00:45   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 16:00:45   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 16:00:45   decoder_nl/maxout/bias:0 (128,)
+08/19 16:00:45   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 16:00:45   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 16:00:45   decoder_nl/softmax1/bias:0 (50004,)
+08/19 16:00:45   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 16:00:45   embedding_api:0 (33082, 128)
+08/19 16:00:45   embedding_nl:0 (50004, 128)
+08/19 16:00:45   encoder_api/initial_state:0 (128,)
+08/19 16:00:45   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 16:00:45   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 16:00:45   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 16:00:45   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 16:00:45   global_step:0 ()
+08/19 16:00:45   learning_rate:0 ()
+08/19 16:00:45 number of parameters: 17.47M
+08/19 16:00:48 global step: 0
+08/19 16:00:48 baseline step: 0
+08/19 16:00:48 reading training data
+08/19 16:00:48 total line count: 340922
+08/19 16:01:01   lines read: 100000
+08/19 16:01:14   lines read: 200000
+08/19 16:01:27   lines read: 300000
+08/19 16:01:32 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 16:01:32 lines reads: 340922
+08/19 16:01:32 reading development data
+08/19 16:01:35 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 16:01:35 lines reads: 18940
+08/19 16:01:35 starting training
+08/19 16:05:21 label: default
+08/19 16:05:21 description:
+  default configuration
+  next line of description
+  last line
+08/19 16:05:21 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 16:05:21 tensorflow version: 1.5.0
+08/19 16:05:21 program arguments
+08/19 16:05:21   aggregation_method   'sum'
+08/19 16:05:21   align_encoder_id     0
+08/19 16:05:21   allow_growth         True
+08/19 16:05:21   attention_type       'global'
+08/19 16:05:21   attn_filter_length   0
+08/19 16:05:21   attn_filters         0
+08/19 16:05:21   attn_prev_word       False
+08/19 16:05:21   attn_size            128
+08/19 16:05:21   attn_temperature     1.0
+08/19 16:05:21   attn_window_size     0
+08/19 16:05:21   average              False
+08/19 16:05:21   batch_mode           'standard'
+08/19 16:05:21   batch_size           32
+08/19 16:05:21   beam_size            2
+08/19 16:05:21   bidir                False
+08/19 16:05:21   bidir_projection     False
+08/19 16:05:21   binary               False
+08/19 16:05:21   cell_size            128
+08/19 16:05:21   cell_type            'GRU'
+08/19 16:05:21   character_level      False
+08/19 16:05:21   checkpoints          []
+08/19 16:05:21   conditional_rnn      False
+08/19 16:05:21   config               '../config/api2nl.yaml'
+08/19 16:05:21   data_dir             '../data_pre'
+08/19 16:05:21   debug                False
+08/19 16:05:21   decay_after_n_epoch  3
+08/19 16:05:21   decay_every_n_epoch  1
+08/19 16:05:21   decay_if_no_progress None
+08/19 16:05:21   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 16:05:21   description          'default configuration\nnext line of description\nlast line\n'
+08/19 16:05:21   dev_prefix           ['valid']
+08/19 16:05:21   early_stopping       True
+08/19 16:05:21   embedding_size       128
+08/19 16:05:21   embeddings_on_cpu    True
+08/19 16:05:21   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 16:05:21   ensemble             False
+08/19 16:05:21   eval_burn_in         0
+08/19 16:05:21   feed_previous        0.0
+08/19 16:05:21   final_state          'last'
+08/19 16:05:21   freeze_variables     []
+08/19 16:05:21   generate_first       True
+08/19 16:05:21   gpu_id               0
+08/19 16:05:21   highway_layers       0
+08/19 16:05:21   initial_state_dropout 0.0
+08/19 16:05:21   initializer          None
+08/19 16:05:21   input_layer_dropout  0.0
+08/19 16:05:21   input_layers         None
+08/19 16:05:21   keep_best            5
+08/19 16:05:21   keep_every_n_hours   0
+08/19 16:05:21   label                'default'
+08/19 16:05:21   layer_norm           False
+08/19 16:05:21   layers               1
+08/19 16:05:21   learning_rate        0.5
+08/19 16:05:21   learning_rate_decay_factor 0.95
+08/19 16:05:21   len_normalization    1.0
+08/19 16:05:21   log_file             'log.txt'
+08/19 16:05:21   loss_function        'xent'
+08/19 16:05:21   max_dev_size         0
+08/19 16:05:21   max_epochs           50
+08/19 16:05:21   max_gradient_norm    5.0
+08/19 16:05:21   max_len              50
+08/19 16:05:21   max_steps            500000
+08/19 16:05:21   max_test_size        0
+08/19 16:05:21   max_to_keep          1
+08/19 16:05:21   max_train_size       0
+08/19 16:05:21   maxout_stride        None
+08/19 16:05:21   mem_fraction         1.0
+08/19 16:05:21   min_learning_rate    1e-06
+08/19 16:05:21   model_dir            '../data_pre/model/api2nl'
+08/19 16:05:21   moving_average       None
+08/19 16:05:21   no_gpu               False
+08/19 16:05:21   optimizer            'sgd'
+08/19 16:05:21   orthogonal_init      False
+08/19 16:05:21   output               None
+08/19 16:05:21   output_dropout       0.0
+08/19 16:05:21   parallel_iterations  16
+08/19 16:05:21   pervasive_dropout    False
+08/19 16:05:21   pooling_avg          True
+08/19 16:05:21   post_process_script  None
+08/19 16:05:21   pred_deep_layer      False
+08/19 16:05:21   pred_edits           False
+08/19 16:05:21   pred_embed_proj      True
+08/19 16:05:21   pred_maxout_layer    True
+08/19 16:05:21   purge                False
+08/19 16:05:21   raw_output           False
+08/19 16:05:21   read_ahead           1
+08/19 16:05:21   remove_unk           False
+08/19 16:05:21   reverse_input        True
+08/19 16:05:21   rnn_feed_attn        True
+08/19 16:05:21   rnn_input_dropout    0.0
+08/19 16:05:21   rnn_output_dropout   0.0
+08/19 16:05:21   rnn_state_dropout    0.0
+08/19 16:05:21   save                 False
+08/19 16:05:21   score_function       'nltk_corpus_bleu'
+08/19 16:05:21   script_dir           'scripts'
+08/19 16:05:21   sgd_after_n_epoch    None
+08/19 16:05:21   sgd_learning_rate    1.0
+08/19 16:05:21   shuffle              True
+08/19 16:05:21   softmax_temperature  1.0
+08/19 16:05:21   steps_per_checkpoint 2000
+08/19 16:05:21   steps_per_eval       2000
+08/19 16:05:21   swap_memory          True
+08/19 16:05:21   tie_embeddings       False
+08/19 16:05:21   time_pooling         None
+08/19 16:05:21   train                True
+08/19 16:05:21   train_initial_states True
+08/19 16:05:21   train_prefix         'train'
+08/19 16:05:21   truncate_lines       True
+08/19 16:05:21   update_first         False
+08/19 16:05:21   use_dropout          False
+08/19 16:05:21   use_lstm_full_state  False
+08/19 16:05:21   use_previous_word    True
+08/19 16:05:21   verbose              True
+08/19 16:05:21   vocab_prefix         'vocab'
+08/19 16:05:21   weight_scale         None
+08/19 16:05:21   word_dropout         0.0
+08/19 16:05:21 python random seed: 8061426894561563968
+08/19 16:05:21 tf random seed:     8269640793938406003
+08/19 16:05:22 creating model
+08/19 16:05:22 using device: /gpu:0
+08/19 16:05:22 reading vocabularies
+08/19 16:05:22 creating model
+08/19 16:05:25 Trainable parameters:
+08/19 16:05:25 embedding_api:0
+08/19 16:05:25 encoder_api/initial_state:0
+08/19 16:05:25 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 16:05:25 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 16:05:25 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 16:05:25 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 16:05:25 embedding_nl:0
+08/19 16:05:25 decoder_nl/api/initial_state_projection/kernel:0
+08/19 16:05:25 decoder_nl/api/initial_state_projection/bias:0
+08/19 16:05:25 attention_api/W_a/kernel:0
+08/19 16:05:25 attention_api/W_a/bias:0
+08/19 16:05:25 attention_api/U_a/kernel:0
+08/19 16:05:25 attention_api/v_a:0
+08/19 16:05:25 decoder_nl/attention_api/W_a/kernel:0
+08/19 16:05:25 decoder_nl/attention_api/W_a/bias:0
+08/19 16:05:25 decoder_nl/attention_api/U_a/kernel:0
+08/19 16:05:25 decoder_nl/attention_api/v_a:0
+08/19 16:05:25 decoder_nl/maxout/kernel:0
+08/19 16:05:25 decoder_nl/maxout/bias:0
+08/19 16:05:25 decoder_nl/softmax0/kernel:0
+08/19 16:05:25 decoder_nl/softmax1/kernel:0
+08/19 16:05:25 decoder_nl/softmax1/bias:0
+08/19 16:05:25 decoder_nl/gru_cell/gates/bias:0
+08/19 16:05:25 decoder_nl/gru_cell/gates/kernel:0
+08/19 16:05:25 decoder_nl/gru_cell/candidate/bias:0
+08/19 16:05:25 decoder_nl/gru_cell/candidate/kernel:0
+08/19 16:05:51 model parameters (29)
+08/19 16:05:51   attention_api/U_a/kernel:0 (128, 128)
+08/19 16:05:51   attention_api/W_a/bias:0 (128,)
+08/19 16:05:51   attention_api/W_a/kernel:0 (128, 128)
+08/19 16:05:51   attention_api/v_a:0 (128,)
+08/19 16:05:51   baseline_step:0 ()
+08/19 16:05:51   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 16:05:51   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 16:05:51   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 16:05:51   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 16:05:51   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 16:05:51   decoder_nl/attention_api/v_a:0 (128,)
+08/19 16:05:51   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 16:05:51   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 16:05:51   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 16:05:51   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 16:05:51   decoder_nl/maxout/bias:0 (128,)
+08/19 16:05:51   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 16:05:51   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 16:05:51   decoder_nl/softmax1/bias:0 (50004,)
+08/19 16:05:51   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 16:05:51   embedding_api:0 (33082, 128)
+08/19 16:05:51   embedding_nl:0 (50004, 128)
+08/19 16:05:51   encoder_api/initial_state:0 (128,)
+08/19 16:05:51   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 16:05:51   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 16:05:51   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 16:05:51   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 16:05:51   global_step:0 ()
+08/19 16:05:51   learning_rate:0 ()
+08/19 16:05:51 number of parameters: 17.47M
+08/19 16:05:53 global step: 0
+08/19 16:05:53 baseline step: 0
+08/19 16:05:53 reading training data
+08/19 16:05:54 total line count: 340922
+08/19 16:06:07   lines read: 100000
+08/19 16:06:20   lines read: 200000
+08/19 16:06:33   lines read: 300000
+08/19 16:06:38 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 16:06:38 lines reads: 340922
+08/19 16:06:38 reading development data
+08/19 16:06:40 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 16:06:40 lines reads: 18940
+08/19 16:06:41 starting training
+08/19 16:14:03 label: default
+08/19 16:14:03 description:
+  default configuration
+  next line of description
+  last line
+08/19 16:14:03 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 16:14:03 tensorflow version: 1.5.0
+08/19 16:14:03 program arguments
+08/19 16:14:03   aggregation_method   'sum'
+08/19 16:14:03   align_encoder_id     0
+08/19 16:14:03   allow_growth         True
+08/19 16:14:03   attention_type       'global'
+08/19 16:14:03   attn_filter_length   0
+08/19 16:14:03   attn_filters         0
+08/19 16:14:03   attn_prev_word       False
+08/19 16:14:03   attn_size            128
+08/19 16:14:03   attn_temperature     1.0
+08/19 16:14:03   attn_window_size     0
+08/19 16:14:03   average              False
+08/19 16:14:03   batch_mode           'standard'
+08/19 16:14:03   batch_size           32
+08/19 16:14:03   beam_size            2
+08/19 16:14:03   bidir                False
+08/19 16:14:03   bidir_projection     False
+08/19 16:14:03   binary               False
+08/19 16:14:03   cell_size            128
+08/19 16:14:03   cell_type            'GRU'
+08/19 16:14:03   character_level      False
+08/19 16:14:03   checkpoints          []
+08/19 16:14:03   conditional_rnn      False
+08/19 16:14:03   config               '../config/api2nl.yaml'
+08/19 16:14:03   data_dir             '../data_pre'
+08/19 16:14:03   debug                False
+08/19 16:14:03   decay_after_n_epoch  3
+08/19 16:14:03   decay_every_n_epoch  1
+08/19 16:14:03   decay_if_no_progress None
+08/19 16:14:03   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 16:14:03   description          'default configuration\nnext line of description\nlast line\n'
+08/19 16:14:03   dev_prefix           ['valid']
+08/19 16:14:03   early_stopping       True
+08/19 16:14:03   embedding_size       128
+08/19 16:14:03   embeddings_on_cpu    True
+08/19 16:14:03   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 16:14:03   ensemble             False
+08/19 16:14:03   eval_burn_in         0
+08/19 16:14:03   feed_previous        0.0
+08/19 16:14:03   final_state          'last'
+08/19 16:14:03   freeze_variables     []
+08/19 16:14:03   generate_first       True
+08/19 16:14:03   gpu_id               0
+08/19 16:14:03   highway_layers       0
+08/19 16:14:03   initial_state_dropout 0.0
+08/19 16:14:03   initializer          None
+08/19 16:14:03   input_layer_dropout  0.0
+08/19 16:14:03   input_layers         None
+08/19 16:14:03   keep_best            5
+08/19 16:14:03   keep_every_n_hours   0
+08/19 16:14:03   label                'default'
+08/19 16:14:03   layer_norm           False
+08/19 16:14:03   layers               1
+08/19 16:14:03   learning_rate        0.5
+08/19 16:14:03   learning_rate_decay_factor 0.95
+08/19 16:14:03   len_normalization    1.0
+08/19 16:14:03   log_file             'log.txt'
+08/19 16:14:03   loss_function        'xent'
+08/19 16:14:03   max_dev_size         0
+08/19 16:14:03   max_epochs           50
+08/19 16:14:03   max_gradient_norm    5.0
+08/19 16:14:04   max_len              50
+08/19 16:14:04   max_steps            500000
+08/19 16:14:04   max_test_size        0
+08/19 16:14:04   max_to_keep          1
+08/19 16:14:04   max_train_size       0
+08/19 16:14:04   maxout_stride        None
+08/19 16:14:04   mem_fraction         1.0
+08/19 16:14:04   min_learning_rate    1e-06
+08/19 16:14:04   model_dir            '../data_pre/model/api2nl'
+08/19 16:14:04   moving_average       None
+08/19 16:14:04   no_gpu               False
+08/19 16:14:04   optimizer            'sgd'
+08/19 16:14:04   orthogonal_init      False
+08/19 16:14:04   output               None
+08/19 16:14:04   output_dropout       0.0
+08/19 16:14:04   parallel_iterations  16
+08/19 16:14:04   pervasive_dropout    False
+08/19 16:14:04   pooling_avg          True
+08/19 16:14:04   post_process_script  None
+08/19 16:14:04   pred_deep_layer      False
+08/19 16:14:04   pred_edits           False
+08/19 16:14:04   pred_embed_proj      True
+08/19 16:14:04   pred_maxout_layer    True
+08/19 16:14:04   purge                False
+08/19 16:14:04   raw_output           False
+08/19 16:14:04   read_ahead           1
+08/19 16:14:04   remove_unk           False
+08/19 16:14:04   reverse_input        True
+08/19 16:14:04   rnn_feed_attn        True
+08/19 16:14:04   rnn_input_dropout    0.0
+08/19 16:14:04   rnn_output_dropout   0.0
+08/19 16:14:04   rnn_state_dropout    0.0
+08/19 16:14:04   save                 False
+08/19 16:14:04   score_function       'nltk_corpus_bleu'
+08/19 16:14:04   script_dir           'scripts'
+08/19 16:14:04   sgd_after_n_epoch    None
+08/19 16:14:04   sgd_learning_rate    1.0
+08/19 16:14:04   shuffle              True
+08/19 16:14:04   softmax_temperature  1.0
+08/19 16:14:04   steps_per_checkpoint 2000
+08/19 16:14:04   steps_per_eval       2000
+08/19 16:14:04   swap_memory          True
+08/19 16:14:04   tie_embeddings       False
+08/19 16:14:04   time_pooling         None
+08/19 16:14:04   train                True
+08/19 16:14:04   train_initial_states True
+08/19 16:14:04   train_prefix         'train'
+08/19 16:14:04   truncate_lines       True
+08/19 16:14:04   update_first         False
+08/19 16:14:04   use_dropout          False
+08/19 16:14:04   use_lstm_full_state  False
+08/19 16:14:04   use_previous_word    True
+08/19 16:14:04   verbose              True
+08/19 16:14:04   vocab_prefix         'vocab'
+08/19 16:14:04   weight_scale         None
+08/19 16:14:04   word_dropout         0.0
+08/19 16:14:04 python random seed: 9005410828741368116
+08/19 16:14:04 tf random seed:     5144272517210564001
+08/19 16:14:04 creating model
+08/19 16:14:04 using device: /gpu:0
+08/19 16:14:04 reading vocabularies
+08/19 16:14:05 creating model
+08/19 16:14:07 Trainable parameters:
+08/19 16:14:07 embedding_api:0
+08/19 16:14:07 encoder_api/initial_state:0
+08/19 16:14:07 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 16:14:07 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 16:14:07 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 16:14:07 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 16:14:07 embedding_nl:0
+08/19 16:14:07 decoder_nl/api/initial_state_projection/kernel:0
+08/19 16:14:07 decoder_nl/api/initial_state_projection/bias:0
+08/19 16:14:07 attention_api/W_a/kernel:0
+08/19 16:14:07 attention_api/W_a/bias:0
+08/19 16:14:07 attention_api/U_a/kernel:0
+08/19 16:14:07 attention_api/v_a:0
+08/19 16:14:07 decoder_nl/attention_api/W_a/kernel:0
+08/19 16:14:07 decoder_nl/attention_api/W_a/bias:0
+08/19 16:14:07 decoder_nl/attention_api/U_a/kernel:0
+08/19 16:14:07 decoder_nl/attention_api/v_a:0
+08/19 16:14:07 decoder_nl/maxout/kernel:0
+08/19 16:14:07 decoder_nl/maxout/bias:0
+08/19 16:14:07 decoder_nl/softmax0/kernel:0
+08/19 16:14:07 decoder_nl/softmax1/kernel:0
+08/19 16:14:07 decoder_nl/softmax1/bias:0
+08/19 16:14:07 decoder_nl/gru_cell/gates/bias:0
+08/19 16:14:07 decoder_nl/gru_cell/gates/kernel:0
+08/19 16:14:07 decoder_nl/gru_cell/candidate/bias:0
+08/19 16:14:07 decoder_nl/gru_cell/candidate/kernel:0
+08/19 16:14:35 model parameters (29)
+08/19 16:14:35   attention_api/U_a/kernel:0 (128, 128)
+08/19 16:14:35   attention_api/W_a/bias:0 (128,)
+08/19 16:14:35   attention_api/W_a/kernel:0 (128, 128)
+08/19 16:14:35   attention_api/v_a:0 (128,)
+08/19 16:14:35   baseline_step:0 ()
+08/19 16:14:35   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 16:14:35   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 16:14:35   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 16:14:35   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 16:14:35   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 16:14:35   decoder_nl/attention_api/v_a:0 (128,)
+08/19 16:14:35   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 16:14:35   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 16:14:35   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 16:14:35   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 16:14:35   decoder_nl/maxout/bias:0 (128,)
+08/19 16:14:35   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 16:14:35   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 16:14:35   decoder_nl/softmax1/bias:0 (50004,)
+08/19 16:14:35   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 16:14:35   embedding_api:0 (33082, 128)
+08/19 16:14:35   embedding_nl:0 (50004, 128)
+08/19 16:14:35   encoder_api/initial_state:0 (128,)
+08/19 16:14:35   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 16:14:35   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 16:14:35   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 16:14:35   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 16:14:35   global_step:0 ()
+08/19 16:14:35   learning_rate:0 ()
+08/19 16:14:35 number of parameters: 17.47M
+08/19 16:14:38 global step: 0
+08/19 16:14:38 baseline step: 0
+08/19 16:14:38 reading training data
+08/19 16:14:39 total line count: 340922
+08/19 16:14:52   lines read: 100000
+08/19 16:15:06   lines read: 200000
+08/19 16:15:19   lines read: 300000
+08/19 16:15:24 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 16:15:24 lines reads: 340922
+08/19 16:15:24 reading development data
+08/19 16:15:27 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 16:15:27 lines reads: 18940
+08/19 16:15:28 starting training
+08/19 16:26:09 label: default
+08/19 16:26:09 description:
+  default configuration
+  next line of description
+  last line
+08/19 16:26:09 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 16:26:10 tensorflow version: 1.5.0
+08/19 16:26:10 program arguments
+08/19 16:26:10   aggregation_method   'sum'
+08/19 16:26:10   align_encoder_id     0
+08/19 16:26:10   allow_growth         True
+08/19 16:26:10   attention_type       'global'
+08/19 16:26:10   attn_filter_length   0
+08/19 16:26:10   attn_filters         0
+08/19 16:26:10   attn_prev_word       False
+08/19 16:26:10   attn_size            128
+08/19 16:26:10   attn_temperature     1.0
+08/19 16:26:10   attn_window_size     0
+08/19 16:26:10   average              False
+08/19 16:26:10   batch_mode           'standard'
+08/19 16:26:10   batch_size           32
+08/19 16:26:10   beam_size            2
+08/19 16:26:10   bidir                False
+08/19 16:26:10   bidir_projection     False
+08/19 16:26:10   binary               False
+08/19 16:26:10   cell_size            128
+08/19 16:26:10   cell_type            'GRU'
+08/19 16:26:10   character_level      False
+08/19 16:26:10   checkpoints          []
+08/19 16:26:10   conditional_rnn      False
+08/19 16:26:10   config               '../config/api2nl.yaml'
+08/19 16:26:10   data_dir             '../data_pre'
+08/19 16:26:10   debug                False
+08/19 16:26:10   decay_after_n_epoch  3
+08/19 16:26:10   decay_every_n_epoch  1
+08/19 16:26:10   decay_if_no_progress None
+08/19 16:26:10   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 16:26:10   description          'default configuration\nnext line of description\nlast line\n'
+08/19 16:26:10   dev_prefix           ['valid']
+08/19 16:26:10   early_stopping       True
+08/19 16:26:10   embedding_size       128
+08/19 16:26:10   embeddings_on_cpu    True
+08/19 16:26:10   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 16:26:10   ensemble             False
+08/19 16:26:10   eval_burn_in         0
+08/19 16:26:10   feed_previous        0.0
+08/19 16:26:10   final_state          'last'
+08/19 16:26:10   freeze_variables     []
+08/19 16:26:10   generate_first       True
+08/19 16:26:10   gpu_id               0
+08/19 16:26:10   highway_layers       0
+08/19 16:26:10   initial_state_dropout 0.0
+08/19 16:26:10   initializer          None
+08/19 16:26:10   input_layer_dropout  0.0
+08/19 16:26:10   input_layers         None
+08/19 16:26:10   keep_best            5
+08/19 16:26:10   keep_every_n_hours   0
+08/19 16:26:10   label                'default'
+08/19 16:26:10   layer_norm           False
+08/19 16:26:10   layers               1
+08/19 16:26:10   learning_rate        0.5
+08/19 16:26:10   learning_rate_decay_factor 0.95
+08/19 16:26:10   len_normalization    1.0
+08/19 16:26:10   log_file             'log.txt'
+08/19 16:26:10   loss_function        'xent'
+08/19 16:26:10   max_dev_size         0
+08/19 16:26:10   max_epochs           50
+08/19 16:26:10   max_gradient_norm    5.0
+08/19 16:26:10   max_len              50
+08/19 16:26:10   max_steps            500000
+08/19 16:26:10   max_test_size        0
+08/19 16:26:10   max_to_keep          1
+08/19 16:26:10   max_train_size       0
+08/19 16:26:10   maxout_stride        None
+08/19 16:26:10   mem_fraction         1.0
+08/19 16:26:10   min_learning_rate    1e-06
+08/19 16:26:10   model_dir            '../data_pre/model/api2nl'
+08/19 16:26:10   moving_average       None
+08/19 16:26:10   no_gpu               False
+08/19 16:26:10   optimizer            'sgd'
+08/19 16:26:10   orthogonal_init      False
+08/19 16:26:10   output               None
+08/19 16:26:10   output_dropout       0.0
+08/19 16:26:10   parallel_iterations  16
+08/19 16:26:10   pervasive_dropout    False
+08/19 16:26:10   pooling_avg          True
+08/19 16:26:10   post_process_script  None
+08/19 16:26:10   pred_deep_layer      False
+08/19 16:26:10   pred_edits           False
+08/19 16:26:10   pred_embed_proj      True
+08/19 16:26:10   pred_maxout_layer    True
+08/19 16:26:10   purge                False
+08/19 16:26:10   raw_output           False
+08/19 16:26:10   read_ahead           1
+08/19 16:26:10   remove_unk           False
+08/19 16:26:10   reverse_input        True
+08/19 16:26:10   rnn_feed_attn        True
+08/19 16:26:10   rnn_input_dropout    0.0
+08/19 16:26:10   rnn_output_dropout   0.0
+08/19 16:26:10   rnn_state_dropout    0.0
+08/19 16:26:10   save                 False
+08/19 16:26:10   score_function       'nltk_corpus_bleu'
+08/19 16:26:10   script_dir           'scripts'
+08/19 16:26:10   sgd_after_n_epoch    None
+08/19 16:26:10   sgd_learning_rate    1.0
+08/19 16:26:10   shuffle              True
+08/19 16:26:10   softmax_temperature  1.0
+08/19 16:26:10   steps_per_checkpoint 2000
+08/19 16:26:10   steps_per_eval       2000
+08/19 16:26:10   swap_memory          True
+08/19 16:26:10   tie_embeddings       False
+08/19 16:26:10   time_pooling         None
+08/19 16:26:10   train                True
+08/19 16:26:10   train_initial_states True
+08/19 16:26:10   train_prefix         'train'
+08/19 16:26:10   truncate_lines       True
+08/19 16:26:10   update_first         False
+08/19 16:26:10   use_dropout          False
+08/19 16:26:10   use_lstm_full_state  False
+08/19 16:26:10   use_previous_word    True
+08/19 16:26:10   verbose              True
+08/19 16:26:10   vocab_prefix         'vocab'
+08/19 16:26:10   weight_scale         None
+08/19 16:26:10   word_dropout         0.0
+08/19 16:26:10 python random seed: 1490871186071025784
+08/19 16:26:10 tf random seed:     1193528208177006352
+08/19 16:26:11 creating model
+08/19 16:26:11 using device: /gpu:0
+08/19 16:26:11 reading vocabularies
+08/19 16:26:11 creating model
+08/19 16:26:14 Trainable parameters:
+08/19 16:26:14 embedding_api:0
+08/19 16:26:14 encoder_api/initial_state:0
+08/19 16:26:14 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 16:26:14 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 16:26:14 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 16:26:14 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 16:26:14 embedding_nl:0
+08/19 16:26:14 decoder_nl/api/initial_state_projection/kernel:0
+08/19 16:26:14 decoder_nl/api/initial_state_projection/bias:0
+08/19 16:26:14 attention_api/W_a/kernel:0
+08/19 16:26:14 attention_api/W_a/bias:0
+08/19 16:26:14 attention_api/U_a/kernel:0
+08/19 16:26:14 attention_api/v_a:0
+08/19 16:26:14 decoder_nl/attention_api/W_a/kernel:0
+08/19 16:26:14 decoder_nl/attention_api/W_a/bias:0
+08/19 16:26:14 decoder_nl/attention_api/U_a/kernel:0
+08/19 16:26:14 decoder_nl/attention_api/v_a:0
+08/19 16:26:14 decoder_nl/maxout/kernel:0
+08/19 16:26:14 decoder_nl/maxout/bias:0
+08/19 16:26:14 decoder_nl/softmax0/kernel:0
+08/19 16:26:14 decoder_nl/softmax1/kernel:0
+08/19 16:26:14 decoder_nl/softmax1/bias:0
+08/19 16:26:14 decoder_nl/gru_cell/gates/bias:0
+08/19 16:26:14 decoder_nl/gru_cell/gates/kernel:0
+08/19 16:26:14 decoder_nl/gru_cell/candidate/bias:0
+08/19 16:26:14 decoder_nl/gru_cell/candidate/kernel:0
+08/19 16:26:41 model parameters (29)
+08/19 16:26:41   attention_api/U_a/kernel:0 (128, 128)
+08/19 16:26:41   attention_api/W_a/bias:0 (128,)
+08/19 16:26:41   attention_api/W_a/kernel:0 (128, 128)
+08/19 16:26:41   attention_api/v_a:0 (128,)
+08/19 16:26:41   baseline_step:0 ()
+08/19 16:26:41   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 16:26:41   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 16:26:41   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 16:26:41   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 16:26:41   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 16:26:41   decoder_nl/attention_api/v_a:0 (128,)
+08/19 16:26:41   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 16:26:41   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 16:26:41   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 16:26:41   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 16:26:41   decoder_nl/maxout/bias:0 (128,)
+08/19 16:26:41   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 16:26:41   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 16:26:41   decoder_nl/softmax1/bias:0 (50004,)
+08/19 16:26:41   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 16:26:41   embedding_api:0 (33082, 128)
+08/19 16:26:41   embedding_nl:0 (50004, 128)
+08/19 16:26:41   encoder_api/initial_state:0 (128,)
+08/19 16:26:41   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 16:26:41   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 16:26:41   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 16:26:41   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 16:26:41   global_step:0 ()
+08/19 16:26:41   learning_rate:0 ()
+08/19 16:26:41 number of parameters: 17.47M
+08/19 16:26:43 global step: 0
+08/19 16:26:43 baseline step: 0
+08/19 16:26:43 reading training data
+08/19 16:26:44 total line count: 340922
+08/19 16:26:58   lines read: 100000
+08/19 16:27:12   lines read: 200000
+08/19 16:27:25   lines read: 300000
+08/19 16:27:31 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 16:27:31 lines reads: 340922
+08/19 16:27:31 reading development data
+08/19 16:27:33 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 16:27:33 lines reads: 18940
+08/19 16:27:34 starting training
+08/19 16:29:54 label: default
+08/19 16:29:54 description:
+  default configuration
+  next line of description
+  last line
+08/19 16:29:54 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 16:29:55 tensorflow version: 1.5.0
+08/19 16:29:55 program arguments
+08/19 16:29:55   aggregation_method   'sum'
+08/19 16:29:55   align_encoder_id     0
+08/19 16:29:55   allow_growth         True
+08/19 16:29:55   attention_type       'global'
+08/19 16:29:55   attn_filter_length   0
+08/19 16:29:55   attn_filters         0
+08/19 16:29:55   attn_prev_word       False
+08/19 16:29:55   attn_size            128
+08/19 16:29:55   attn_temperature     1.0
+08/19 16:29:55   attn_window_size     0
+08/19 16:29:55   average              False
+08/19 16:29:55   batch_mode           'standard'
+08/19 16:29:55   batch_size           32
+08/19 16:29:55   beam_size            2
+08/19 16:29:55   bidir                False
+08/19 16:29:55   bidir_projection     False
+08/19 16:29:55   binary               False
+08/19 16:29:55   cell_size            128
+08/19 16:29:55   cell_type            'GRU'
+08/19 16:29:55   character_level      False
+08/19 16:29:55   checkpoints          []
+08/19 16:29:55   conditional_rnn      False
+08/19 16:29:55   config               '../config/api2nl.yaml'
+08/19 16:29:55   data_dir             '../data_pre'
+08/19 16:29:55   debug                False
+08/19 16:29:55   decay_after_n_epoch  3
+08/19 16:29:55   decay_every_n_epoch  1
+08/19 16:29:55   decay_if_no_progress None
+08/19 16:29:55   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 16:29:55   description          'default configuration\nnext line of description\nlast line\n'
+08/19 16:29:55   dev_prefix           ['valid']
+08/19 16:29:55   early_stopping       True
+08/19 16:29:55   embedding_size       128
+08/19 16:29:55   embeddings_on_cpu    True
+08/19 16:29:55   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 16:29:55   ensemble             False
+08/19 16:29:55   eval_burn_in         0
+08/19 16:29:55   feed_previous        0.0
+08/19 16:29:55   final_state          'last'
+08/19 16:29:55   freeze_variables     []
+08/19 16:29:55   generate_first       True
+08/19 16:29:55   gpu_id               0
+08/19 16:29:55   highway_layers       0
+08/19 16:29:55   initial_state_dropout 0.0
+08/19 16:29:55   initializer          None
+08/19 16:29:55   input_layer_dropout  0.0
+08/19 16:29:55   input_layers         None
+08/19 16:29:55   keep_best            5
+08/19 16:29:55   keep_every_n_hours   0
+08/19 16:29:55   label                'default'
+08/19 16:29:55   layer_norm           False
+08/19 16:29:55   layers               1
+08/19 16:29:55   learning_rate        0.5
+08/19 16:29:55   learning_rate_decay_factor 0.95
+08/19 16:29:55   len_normalization    1.0
+08/19 16:29:55   log_file             'log.txt'
+08/19 16:29:55   loss_function        'xent'
+08/19 16:29:55   max_dev_size         0
+08/19 16:29:55   max_epochs           50
+08/19 16:29:55   max_gradient_norm    5.0
+08/19 16:29:55   max_len              50
+08/19 16:29:55   max_steps            500000
+08/19 16:29:55   max_test_size        0
+08/19 16:29:55   max_to_keep          1
+08/19 16:29:55   max_train_size       0
+08/19 16:29:55   maxout_stride        None
+08/19 16:29:55   mem_fraction         1.0
+08/19 16:29:55   min_learning_rate    1e-06
+08/19 16:29:55   model_dir            '../data_pre/model/api2nl'
+08/19 16:29:55   moving_average       None
+08/19 16:29:55   no_gpu               False
+08/19 16:29:55   optimizer            'sgd'
+08/19 16:29:55   orthogonal_init      False
+08/19 16:29:55   output               None
+08/19 16:29:55   output_dropout       0.0
+08/19 16:29:55   parallel_iterations  16
+08/19 16:29:55   pervasive_dropout    False
+08/19 16:29:55   pooling_avg          True
+08/19 16:29:55   post_process_script  None
+08/19 16:29:55   pred_deep_layer      False
+08/19 16:29:55   pred_edits           False
+08/19 16:29:55   pred_embed_proj      True
+08/19 16:29:55   pred_maxout_layer    True
+08/19 16:29:55   purge                False
+08/19 16:29:55   raw_output           False
+08/19 16:29:55   read_ahead           1
+08/19 16:29:55   remove_unk           False
+08/19 16:29:55   reverse_input        True
+08/19 16:29:55   rnn_feed_attn        True
+08/19 16:29:55   rnn_input_dropout    0.0
+08/19 16:29:55   rnn_output_dropout   0.0
+08/19 16:29:55   rnn_state_dropout    0.0
+08/19 16:29:55   save                 False
+08/19 16:29:55   score_function       'nltk_corpus_bleu'
+08/19 16:29:55   script_dir           'scripts'
+08/19 16:29:55   sgd_after_n_epoch    None
+08/19 16:29:55   sgd_learning_rate    1.0
+08/19 16:29:55   shuffle              True
+08/19 16:29:55   softmax_temperature  1.0
+08/19 16:29:55   steps_per_checkpoint 2000
+08/19 16:29:55   steps_per_eval       2000
+08/19 16:29:55   swap_memory          True
+08/19 16:29:55   tie_embeddings       False
+08/19 16:29:55   time_pooling         None
+08/19 16:29:55   train                True
+08/19 16:29:55   train_initial_states True
+08/19 16:29:55   train_prefix         'train'
+08/19 16:29:55   truncate_lines       True
+08/19 16:29:55   update_first         False
+08/19 16:29:55   use_dropout          False
+08/19 16:29:55   use_lstm_full_state  False
+08/19 16:29:55   use_previous_word    True
+08/19 16:29:55   verbose              True
+08/19 16:29:55   vocab_prefix         'vocab'
+08/19 16:29:55   weight_scale         None
+08/19 16:29:55   word_dropout         0.0
+08/19 16:29:55 python random seed: 3891960122197709709
+08/19 16:29:55 tf random seed:     4482656558074983521
+08/19 16:29:55 creating model
+08/19 16:29:55 using device: /gpu:0
+08/19 16:29:55 reading vocabularies
+08/19 16:29:56 creating model
+08/19 16:29:58 Trainable parameters:
+08/19 16:29:58 embedding_api:0
+08/19 16:29:58 encoder_api/initial_state:0
+08/19 16:29:58 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 16:29:58 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 16:29:58 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 16:29:58 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 16:29:58 embedding_nl:0
+08/19 16:29:58 decoder_nl/api/initial_state_projection/kernel:0
+08/19 16:29:58 decoder_nl/api/initial_state_projection/bias:0
+08/19 16:29:58 attention_api/W_a/kernel:0
+08/19 16:29:58 attention_api/W_a/bias:0
+08/19 16:29:58 attention_api/U_a/kernel:0
+08/19 16:29:58 attention_api/v_a:0
+08/19 16:29:58 decoder_nl/attention_api/W_a/kernel:0
+08/19 16:29:58 decoder_nl/attention_api/W_a/bias:0
+08/19 16:29:58 decoder_nl/attention_api/U_a/kernel:0
+08/19 16:29:58 decoder_nl/attention_api/v_a:0
+08/19 16:29:58 decoder_nl/maxout/kernel:0
+08/19 16:29:58 decoder_nl/maxout/bias:0
+08/19 16:29:58 decoder_nl/softmax0/kernel:0
+08/19 16:29:58 decoder_nl/softmax1/kernel:0
+08/19 16:29:58 decoder_nl/softmax1/bias:0
+08/19 16:29:58 decoder_nl/gru_cell/gates/bias:0
+08/19 16:29:58 decoder_nl/gru_cell/gates/kernel:0
+08/19 16:29:58 decoder_nl/gru_cell/candidate/bias:0
+08/19 16:29:58 decoder_nl/gru_cell/candidate/kernel:0
+08/19 16:30:25 model parameters (29)
+08/19 16:30:25   attention_api/U_a/kernel:0 (128, 128)
+08/19 16:30:25   attention_api/W_a/bias:0 (128,)
+08/19 16:30:25   attention_api/W_a/kernel:0 (128, 128)
+08/19 16:30:25   attention_api/v_a:0 (128,)
+08/19 16:30:25   baseline_step:0 ()
+08/19 16:30:25   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 16:30:25   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 16:30:25   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 16:30:25   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 16:30:25   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 16:30:25   decoder_nl/attention_api/v_a:0 (128,)
+08/19 16:30:25   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 16:30:25   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 16:30:25   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 16:30:25   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 16:30:25   decoder_nl/maxout/bias:0 (128,)
+08/19 16:30:25   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 16:30:25   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 16:30:25   decoder_nl/softmax1/bias:0 (50004,)
+08/19 16:30:25   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 16:30:25   embedding_api:0 (33082, 128)
+08/19 16:30:25   embedding_nl:0 (50004, 128)
+08/19 16:30:25   encoder_api/initial_state:0 (128,)
+08/19 16:30:25   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 16:30:25   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 16:30:25   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 16:30:25   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 16:30:25   global_step:0 ()
+08/19 16:30:25   learning_rate:0 ()
+08/19 16:30:25 number of parameters: 17.47M
+08/19 16:30:27 global step: 0
+08/19 16:30:27 baseline step: 0
+08/19 16:30:27 reading training data
+08/19 16:30:28 total line count: 340922
+08/19 16:31:12 label: default
+08/19 16:31:12 description:
+  default configuration
+  next line of description
+  last line
+08/19 16:31:12 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 16:31:12 tensorflow version: 1.5.0
+08/19 16:31:12 program arguments
+08/19 16:31:12   aggregation_method   'sum'
+08/19 16:31:12   align_encoder_id     0
+08/19 16:31:12   allow_growth         True
+08/19 16:31:12   attention_type       'global'
+08/19 16:31:12   attn_filter_length   0
+08/19 16:31:12   attn_filters         0
+08/19 16:31:12   attn_prev_word       False
+08/19 16:31:12   attn_size            128
+08/19 16:31:12   attn_temperature     1.0
+08/19 16:31:12   attn_window_size     0
+08/19 16:31:12   average              False
+08/19 16:31:12   batch_mode           'standard'
+08/19 16:31:12   batch_size           32
+08/19 16:31:12   beam_size            2
+08/19 16:31:12   bidir                False
+08/19 16:31:12   bidir_projection     False
+08/19 16:31:12   binary               False
+08/19 16:31:12   cell_size            128
+08/19 16:31:12   cell_type            'GRU'
+08/19 16:31:12   character_level      False
+08/19 16:31:12   checkpoints          []
+08/19 16:31:12   conditional_rnn      False
+08/19 16:31:12   config               '../config/api2nl.yaml'
+08/19 16:31:12   data_dir             '../data_pre'
+08/19 16:31:12   debug                False
+08/19 16:31:12   decay_after_n_epoch  3
+08/19 16:31:12   decay_every_n_epoch  1
+08/19 16:31:12   decay_if_no_progress None
+08/19 16:31:12   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 16:31:12   description          'default configuration\nnext line of description\nlast line\n'
+08/19 16:31:12   dev_prefix           ['valid']
+08/19 16:31:12   early_stopping       True
+08/19 16:31:12   embedding_size       128
+08/19 16:31:12   embeddings_on_cpu    True
+08/19 16:31:12   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 16:31:12   ensemble             False
+08/19 16:31:12   eval_burn_in         0
+08/19 16:31:12   feed_previous        0.0
+08/19 16:31:12   final_state          'last'
+08/19 16:31:12   freeze_variables     []
+08/19 16:31:12   generate_first       True
+08/19 16:31:12   gpu_id               0
+08/19 16:31:12   highway_layers       0
+08/19 16:31:12   initial_state_dropout 0.0
+08/19 16:31:12   initializer          None
+08/19 16:31:12   input_layer_dropout  0.0
+08/19 16:31:12   input_layers         None
+08/19 16:31:12   keep_best            5
+08/19 16:31:12   keep_every_n_hours   0
+08/19 16:31:12   label                'default'
+08/19 16:31:12   layer_norm           False
+08/19 16:31:12   layers               1
+08/19 16:31:12   learning_rate        0.5
+08/19 16:31:12   learning_rate_decay_factor 0.95
+08/19 16:31:12   len_normalization    1.0
+08/19 16:31:12   log_file             'log.txt'
+08/19 16:31:12   loss_function        'xent'
+08/19 16:31:12   max_dev_size         0
+08/19 16:31:12   max_epochs           50
+08/19 16:31:12   max_gradient_norm    5.0
+08/19 16:31:12   max_len              50
+08/19 16:31:12   max_steps            500000
+08/19 16:31:12   max_test_size        0
+08/19 16:31:12   max_to_keep          1
+08/19 16:31:12   max_train_size       0
+08/19 16:31:12   maxout_stride        None
+08/19 16:31:12   mem_fraction         1.0
+08/19 16:31:12   min_learning_rate    1e-06
+08/19 16:31:12   model_dir            '../data_pre/model/api2nl'
+08/19 16:31:12   moving_average       None
+08/19 16:31:12   no_gpu               False
+08/19 16:31:12   optimizer            'sgd'
+08/19 16:31:12   orthogonal_init      False
+08/19 16:31:12   output               None
+08/19 16:31:12   output_dropout       0.0
+08/19 16:31:12   parallel_iterations  16
+08/19 16:31:12   pervasive_dropout    False
+08/19 16:31:12   pooling_avg          True
+08/19 16:31:12   post_process_script  None
+08/19 16:31:12   pred_deep_layer      False
+08/19 16:31:12   pred_edits           False
+08/19 16:31:12   pred_embed_proj      True
+08/19 16:31:12   pred_maxout_layer    True
+08/19 16:31:12   purge                False
+08/19 16:31:12   raw_output           False
+08/19 16:31:12   read_ahead           1
+08/19 16:31:12   remove_unk           False
+08/19 16:31:12   reverse_input        True
+08/19 16:31:12   rnn_feed_attn        True
+08/19 16:31:12   rnn_input_dropout    0.0
+08/19 16:31:12   rnn_output_dropout   0.0
+08/19 16:31:12   rnn_state_dropout    0.0
+08/19 16:31:12   save                 False
+08/19 16:31:12   score_function       'nltk_corpus_bleu'
+08/19 16:31:12   script_dir           'scripts'
+08/19 16:31:12   sgd_after_n_epoch    None
+08/19 16:31:12   sgd_learning_rate    1.0
+08/19 16:31:12   shuffle              True
+08/19 16:31:12   softmax_temperature  1.0
+08/19 16:31:12   steps_per_checkpoint 2000
+08/19 16:31:12   steps_per_eval       2000
+08/19 16:31:12   swap_memory          True
+08/19 16:31:12   tie_embeddings       False
+08/19 16:31:12   time_pooling         None
+08/19 16:31:12   train                True
+08/19 16:31:12   train_initial_states True
+08/19 16:31:12   train_prefix         'train'
+08/19 16:31:12   truncate_lines       True
+08/19 16:31:12   update_first         False
+08/19 16:31:12   use_dropout          False
+08/19 16:31:12   use_lstm_full_state  False
+08/19 16:31:12   use_previous_word    True
+08/19 16:31:12   verbose              True
+08/19 16:31:12   vocab_prefix         'vocab'
+08/19 16:31:12   weight_scale         None
+08/19 16:31:12   word_dropout         0.0
+08/19 16:31:12 python random seed: 3328626612504652710
+08/19 16:31:12 tf random seed:     296908924436689126
+08/19 16:31:13 creating model
+08/19 16:31:13 using device: /gpu:0
+08/19 16:31:13 reading vocabularies
+08/19 16:31:13 creating model
+08/19 16:31:16 Trainable parameters:
+08/19 16:31:16 embedding_api:0
+08/19 16:31:16 encoder_api/initial_state:0
+08/19 16:31:16 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 16:31:16 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 16:31:16 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 16:31:16 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 16:31:16 embedding_nl:0
+08/19 16:31:16 decoder_nl/api/initial_state_projection/kernel:0
+08/19 16:31:16 decoder_nl/api/initial_state_projection/bias:0
+08/19 16:31:16 attention_api/W_a/kernel:0
+08/19 16:31:16 attention_api/W_a/bias:0
+08/19 16:31:16 attention_api/U_a/kernel:0
+08/19 16:31:16 attention_api/v_a:0
+08/19 16:31:16 decoder_nl/attention_api/W_a/kernel:0
+08/19 16:31:16 decoder_nl/attention_api/W_a/bias:0
+08/19 16:31:16 decoder_nl/attention_api/U_a/kernel:0
+08/19 16:31:16 decoder_nl/attention_api/v_a:0
+08/19 16:31:16 decoder_nl/maxout/kernel:0
+08/19 16:31:16 decoder_nl/maxout/bias:0
+08/19 16:31:16 decoder_nl/softmax0/kernel:0
+08/19 16:31:16 decoder_nl/softmax1/kernel:0
+08/19 16:31:16 decoder_nl/softmax1/bias:0
+08/19 16:31:16 decoder_nl/gru_cell/gates/bias:0
+08/19 16:31:16 decoder_nl/gru_cell/gates/kernel:0
+08/19 16:31:16 decoder_nl/gru_cell/candidate/bias:0
+08/19 16:31:16 decoder_nl/gru_cell/candidate/kernel:0
+08/19 16:31:42 model parameters (29)
+08/19 16:31:42   attention_api/U_a/kernel:0 (128, 128)
+08/19 16:31:42   attention_api/W_a/bias:0 (128,)
+08/19 16:31:42   attention_api/W_a/kernel:0 (128, 128)
+08/19 16:31:42   attention_api/v_a:0 (128,)
+08/19 16:31:42   baseline_step:0 ()
+08/19 16:31:42   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 16:31:42   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 16:31:42   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 16:31:42   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 16:31:42   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 16:31:42   decoder_nl/attention_api/v_a:0 (128,)
+08/19 16:31:42   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 16:31:42   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 16:31:42   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 16:31:42   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 16:31:42   decoder_nl/maxout/bias:0 (128,)
+08/19 16:31:42   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 16:31:42   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 16:31:42   decoder_nl/softmax1/bias:0 (50004,)
+08/19 16:31:42   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 16:31:42   embedding_api:0 (33082, 128)
+08/19 16:31:42   embedding_nl:0 (50004, 128)
+08/19 16:31:42   encoder_api/initial_state:0 (128,)
+08/19 16:31:42   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 16:31:42   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 16:31:42   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 16:31:42   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 16:31:42   global_step:0 ()
+08/19 16:31:42   learning_rate:0 ()
+08/19 16:31:42 number of parameters: 17.47M
+08/19 16:31:44 global step: 0
+08/19 16:31:44 baseline step: 0
+08/19 16:31:44 reading training data
+08/19 16:31:45 total line count: 340922
+08/19 16:31:58   lines read: 100000
+08/19 16:32:11   lines read: 200000
+08/19 16:32:23   lines read: 300000
+08/19 16:32:28 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 16:32:28 lines reads: 340922
+08/19 16:32:28 reading development data
+08/19 16:32:31 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 16:32:31 lines reads: 18940
+08/19 16:32:31 starting training
+08/19 16:34:18 label: default
+08/19 16:34:18 description:
+  default configuration
+  next line of description
+  last line
+08/19 16:34:18 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 16:34:19 tensorflow version: 1.5.0
+08/19 16:34:19 program arguments
+08/19 16:34:19   aggregation_method   'sum'
+08/19 16:34:19   align_encoder_id     0
+08/19 16:34:19   allow_growth         True
+08/19 16:34:19   attention_type       'global'
+08/19 16:34:19   attn_filter_length   0
+08/19 16:34:19   attn_filters         0
+08/19 16:34:19   attn_prev_word       False
+08/19 16:34:19   attn_size            128
+08/19 16:34:19   attn_temperature     1.0
+08/19 16:34:19   attn_window_size     0
+08/19 16:34:19   average              False
+08/19 16:34:19   batch_mode           'standard'
+08/19 16:34:19   batch_size           32
+08/19 16:34:19   beam_size            2
+08/19 16:34:19   bidir                False
+08/19 16:34:19   bidir_projection     False
+08/19 16:34:19   binary               False
+08/19 16:34:19   cell_size            128
+08/19 16:34:19   cell_type            'GRU'
+08/19 16:34:19   character_level      False
+08/19 16:34:19   checkpoints          []
+08/19 16:34:19   conditional_rnn      False
+08/19 16:34:19   config               '../config/api2nl.yaml'
+08/19 16:34:19   data_dir             '../data_pre'
+08/19 16:34:19   debug                False
+08/19 16:34:19   decay_after_n_epoch  3
+08/19 16:34:19   decay_every_n_epoch  1
+08/19 16:34:19   decay_if_no_progress None
+08/19 16:34:19   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 16:34:19   description          'default configuration\nnext line of description\nlast line\n'
+08/19 16:34:19   dev_prefix           ['valid']
+08/19 16:34:19   early_stopping       True
+08/19 16:34:19   embedding_size       128
+08/19 16:34:19   embeddings_on_cpu    True
+08/19 16:34:19   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 16:34:19   ensemble             False
+08/19 16:34:19   eval_burn_in         0
+08/19 16:34:19   feed_previous        0.0
+08/19 16:34:19   final_state          'last'
+08/19 16:34:19   freeze_variables     []
+08/19 16:34:19   generate_first       True
+08/19 16:34:19   gpu_id               0
+08/19 16:34:19   highway_layers       0
+08/19 16:34:19   initial_state_dropout 0.0
+08/19 16:34:19   initializer          None
+08/19 16:34:19   input_layer_dropout  0.0
+08/19 16:34:19   input_layers         None
+08/19 16:34:19   keep_best            5
+08/19 16:34:19   keep_every_n_hours   0
+08/19 16:34:19   label                'default'
+08/19 16:34:19   layer_norm           False
+08/19 16:34:19   layers               1
+08/19 16:34:19   learning_rate        0.5
+08/19 16:34:19   learning_rate_decay_factor 0.95
+08/19 16:34:19   len_normalization    1.0
+08/19 16:34:19   log_file             'log.txt'
+08/19 16:34:19   loss_function        'xent'
+08/19 16:34:19   max_dev_size         0
+08/19 16:34:19   max_epochs           50
+08/19 16:34:19   max_gradient_norm    5.0
+08/19 16:34:19   max_len              50
+08/19 16:34:19   max_steps            500000
+08/19 16:34:19   max_test_size        0
+08/19 16:34:19   max_to_keep          1
+08/19 16:34:19   max_train_size       0
+08/19 16:34:19   maxout_stride        None
+08/19 16:34:19   mem_fraction         1.0
+08/19 16:34:19   min_learning_rate    1e-06
+08/19 16:34:19   model_dir            '../data_pre/model/api2nl'
+08/19 16:34:19   moving_average       None
+08/19 16:34:19   no_gpu               False
+08/19 16:34:19   optimizer            'sgd'
+08/19 16:34:19   orthogonal_init      False
+08/19 16:34:19   output               None
+08/19 16:34:19   output_dropout       0.0
+08/19 16:34:19   parallel_iterations  16
+08/19 16:34:19   pervasive_dropout    False
+08/19 16:34:19   pooling_avg          True
+08/19 16:34:19   post_process_script  None
+08/19 16:34:19   pred_deep_layer      False
+08/19 16:34:19   pred_edits           False
+08/19 16:34:19   pred_embed_proj      True
+08/19 16:34:19   pred_maxout_layer    True
+08/19 16:34:19   purge                False
+08/19 16:34:19   raw_output           False
+08/19 16:34:19   read_ahead           1
+08/19 16:34:19   remove_unk           False
+08/19 16:34:19   reverse_input        True
+08/19 16:34:19   rnn_feed_attn        True
+08/19 16:34:19   rnn_input_dropout    0.0
+08/19 16:34:19   rnn_output_dropout   0.0
+08/19 16:34:19   rnn_state_dropout    0.0
+08/19 16:34:19   save                 False
+08/19 16:34:19   score_function       'nltk_corpus_bleu'
+08/19 16:34:19   script_dir           'scripts'
+08/19 16:34:19   sgd_after_n_epoch    None
+08/19 16:34:19   sgd_learning_rate    1.0
+08/19 16:34:19   shuffle              True
+08/19 16:34:19   softmax_temperature  1.0
+08/19 16:34:19   steps_per_checkpoint 2000
+08/19 16:34:19   steps_per_eval       2000
+08/19 16:34:19   swap_memory          True
+08/19 16:34:19   tie_embeddings       False
+08/19 16:34:19   time_pooling         None
+08/19 16:34:19   train                True
+08/19 16:34:19   train_initial_states True
+08/19 16:34:19   train_prefix         'train'
+08/19 16:34:19   truncate_lines       True
+08/19 16:34:19   update_first         False
+08/19 16:34:19   use_dropout          False
+08/19 16:34:19   use_lstm_full_state  False
+08/19 16:34:19   use_previous_word    True
+08/19 16:34:19   verbose              True
+08/19 16:34:19   vocab_prefix         'vocab'
+08/19 16:34:19   weight_scale         None
+08/19 16:34:19   word_dropout         0.0
+08/19 16:34:19 python random seed: 6120702565149785424
+08/19 16:34:19 tf random seed:     3760387245605456872
+08/19 16:34:19 creating model
+08/19 16:34:19 using device: /gpu:0
+08/19 16:34:19 reading vocabularies
+08/19 16:34:20 creating model
+08/19 16:34:22 Trainable parameters:
+08/19 16:34:22 embedding_api:0
+08/19 16:34:22 encoder_api/initial_state:0
+08/19 16:34:22 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 16:34:22 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 16:34:22 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 16:34:22 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 16:34:22 embedding_nl:0
+08/19 16:34:22 decoder_nl/api/initial_state_projection/kernel:0
+08/19 16:34:22 decoder_nl/api/initial_state_projection/bias:0
+08/19 16:34:22 attention_api/W_a/kernel:0
+08/19 16:34:22 attention_api/W_a/bias:0
+08/19 16:34:22 attention_api/U_a/kernel:0
+08/19 16:34:22 attention_api/v_a:0
+08/19 16:34:22 decoder_nl/attention_api/W_a/kernel:0
+08/19 16:34:22 decoder_nl/attention_api/W_a/bias:0
+08/19 16:34:22 decoder_nl/attention_api/U_a/kernel:0
+08/19 16:34:22 decoder_nl/attention_api/v_a:0
+08/19 16:34:22 decoder_nl/maxout/kernel:0
+08/19 16:34:22 decoder_nl/maxout/bias:0
+08/19 16:34:22 decoder_nl/softmax0/kernel:0
+08/19 16:34:22 decoder_nl/softmax1/kernel:0
+08/19 16:34:22 decoder_nl/softmax1/bias:0
+08/19 16:34:22 decoder_nl/gru_cell/gates/bias:0
+08/19 16:34:22 decoder_nl/gru_cell/gates/kernel:0
+08/19 16:34:22 decoder_nl/gru_cell/candidate/bias:0
+08/19 16:34:22 decoder_nl/gru_cell/candidate/kernel:0
+08/19 16:34:48 model parameters (29)
+08/19 16:34:48   attention_api/U_a/kernel:0 (128, 128)
+08/19 16:34:48   attention_api/W_a/bias:0 (128,)
+08/19 16:34:48   attention_api/W_a/kernel:0 (128, 128)
+08/19 16:34:48   attention_api/v_a:0 (128,)
+08/19 16:34:48   baseline_step:0 ()
+08/19 16:34:48   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 16:34:48   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 16:34:48   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 16:34:48   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 16:34:48   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 16:34:48   decoder_nl/attention_api/v_a:0 (128,)
+08/19 16:34:48   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 16:34:48   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 16:34:48   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 16:34:48   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 16:34:48   decoder_nl/maxout/bias:0 (128,)
+08/19 16:34:48   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 16:34:48   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 16:34:48   decoder_nl/softmax1/bias:0 (50004,)
+08/19 16:34:48   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 16:34:48   embedding_api:0 (33082, 128)
+08/19 16:34:48   embedding_nl:0 (50004, 128)
+08/19 16:34:48   encoder_api/initial_state:0 (128,)
+08/19 16:34:48   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 16:34:48   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 16:34:48   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 16:34:48   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 16:34:48   global_step:0 ()
+08/19 16:34:48   learning_rate:0 ()
+08/19 16:34:48 number of parameters: 17.47M
+08/19 16:34:51 global step: 0
+08/19 16:34:51 baseline step: 0
+08/19 16:34:51 reading training data
+08/19 16:34:51 total line count: 340922
+08/19 16:35:05   lines read: 100000
+08/19 16:35:17   lines read: 200000
+08/19 16:35:30   lines read: 300000
+08/19 16:35:35 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 16:35:35 lines reads: 340922
+08/19 16:35:35 reading development data
+08/19 16:35:38 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 16:35:38 lines reads: 18940
+08/19 16:35:38 starting training
+08/19 16:37:39 label: default
+08/19 16:37:39 description:
+  default configuration
+  next line of description
+  last line
+08/19 16:37:39 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 16:37:39 tensorflow version: 1.5.0
+08/19 16:37:39 program arguments
+08/19 16:37:39   aggregation_method   'sum'
+08/19 16:37:39   align_encoder_id     0
+08/19 16:37:39   allow_growth         True
+08/19 16:37:39   attention_type       'global'
+08/19 16:37:39   attn_filter_length   0
+08/19 16:37:39   attn_filters         0
+08/19 16:37:39   attn_prev_word       False
+08/19 16:37:39   attn_size            128
+08/19 16:37:39   attn_temperature     1.0
+08/19 16:37:39   attn_window_size     0
+08/19 16:37:39   average              False
+08/19 16:37:39   batch_mode           'standard'
+08/19 16:37:39   batch_size           32
+08/19 16:37:39   beam_size            2
+08/19 16:37:39   bidir                False
+08/19 16:37:39   bidir_projection     False
+08/19 16:37:39   binary               False
+08/19 16:37:39   cell_size            128
+08/19 16:37:39   cell_type            'GRU'
+08/19 16:37:39   character_level      False
+08/19 16:37:39   checkpoints          []
+08/19 16:37:39   conditional_rnn      False
+08/19 16:37:39   config               '../config/api2nl.yaml'
+08/19 16:37:39   data_dir             '../data_pre'
+08/19 16:37:39   debug                False
+08/19 16:37:39   decay_after_n_epoch  3
+08/19 16:37:39   decay_every_n_epoch  1
+08/19 16:37:39   decay_if_no_progress None
+08/19 16:37:39   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 16:37:39   description          'default configuration\nnext line of description\nlast line\n'
+08/19 16:37:39   dev_prefix           ['valid']
+08/19 16:37:39   early_stopping       True
+08/19 16:37:39   embedding_size       128
+08/19 16:37:39   embeddings_on_cpu    True
+08/19 16:37:39   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 16:37:39   ensemble             False
+08/19 16:37:39   eval_burn_in         0
+08/19 16:37:39   feed_previous        0.0
+08/19 16:37:39   final_state          'last'
+08/19 16:37:39   freeze_variables     []
+08/19 16:37:39   generate_first       True
+08/19 16:37:39   gpu_id               0
+08/19 16:37:39   highway_layers       0
+08/19 16:37:39   initial_state_dropout 0.0
+08/19 16:37:39   initializer          None
+08/19 16:37:39   input_layer_dropout  0.0
+08/19 16:37:39   input_layers         None
+08/19 16:37:39   keep_best            5
+08/19 16:37:39   keep_every_n_hours   0
+08/19 16:37:39   label                'default'
+08/19 16:37:39   layer_norm           False
+08/19 16:37:39   layers               1
+08/19 16:37:39   learning_rate        0.5
+08/19 16:37:39   learning_rate_decay_factor 0.95
+08/19 16:37:39   len_normalization    1.0
+08/19 16:37:39   log_file             'log.txt'
+08/19 16:37:39   loss_function        'xent'
+08/19 16:37:39   max_dev_size         0
+08/19 16:37:39   max_epochs           50
+08/19 16:37:39   max_gradient_norm    5.0
+08/19 16:37:39   max_len              50
+08/19 16:37:39   max_steps            500000
+08/19 16:37:39   max_test_size        0
+08/19 16:37:39   max_to_keep          1
+08/19 16:37:39   max_train_size       0
+08/19 16:37:39   maxout_stride        None
+08/19 16:37:39   mem_fraction         1.0
+08/19 16:37:39   min_learning_rate    1e-06
+08/19 16:37:39   model_dir            '../data_pre/model/api2nl'
+08/19 16:37:39   moving_average       None
+08/19 16:37:39   no_gpu               False
+08/19 16:37:39   optimizer            'sgd'
+08/19 16:37:39   orthogonal_init      False
+08/19 16:37:39   output               None
+08/19 16:37:39   output_dropout       0.0
+08/19 16:37:39   parallel_iterations  16
+08/19 16:37:39   pervasive_dropout    False
+08/19 16:37:39   pooling_avg          True
+08/19 16:37:39   post_process_script  None
+08/19 16:37:39   pred_deep_layer      False
+08/19 16:37:39   pred_edits           False
+08/19 16:37:39   pred_embed_proj      True
+08/19 16:37:39   pred_maxout_layer    True
+08/19 16:37:39   purge                False
+08/19 16:37:39   raw_output           False
+08/19 16:37:39   read_ahead           1
+08/19 16:37:39   remove_unk           False
+08/19 16:37:39   reverse_input        True
+08/19 16:37:39   rnn_feed_attn        True
+08/19 16:37:39   rnn_input_dropout    0.0
+08/19 16:37:39   rnn_output_dropout   0.0
+08/19 16:37:39   rnn_state_dropout    0.0
+08/19 16:37:39   save                 False
+08/19 16:37:39   score_function       'nltk_corpus_bleu'
+08/19 16:37:39   script_dir           'scripts'
+08/19 16:37:39   sgd_after_n_epoch    None
+08/19 16:37:39   sgd_learning_rate    1.0
+08/19 16:37:39   shuffle              True
+08/19 16:37:39   softmax_temperature  1.0
+08/19 16:37:39   steps_per_checkpoint 2000
+08/19 16:37:39   steps_per_eval       2000
+08/19 16:37:39   swap_memory          True
+08/19 16:37:39   tie_embeddings       False
+08/19 16:37:39   time_pooling         None
+08/19 16:37:39   train                True
+08/19 16:37:39   train_initial_states True
+08/19 16:37:39   train_prefix         'train'
+08/19 16:37:39   truncate_lines       True
+08/19 16:37:39   update_first         False
+08/19 16:37:39   use_dropout          False
+08/19 16:37:39   use_lstm_full_state  False
+08/19 16:37:39   use_previous_word    True
+08/19 16:37:39   verbose              True
+08/19 16:37:39   vocab_prefix         'vocab'
+08/19 16:37:39   weight_scale         None
+08/19 16:37:39   word_dropout         0.0
+08/19 16:37:39 python random seed: 9203286692816341337
+08/19 16:37:39 tf random seed:     6311799074964237402
+08/19 16:37:40 creating model
+08/19 16:37:40 using device: /gpu:0
+08/19 16:37:40 reading vocabularies
+08/19 16:37:40 creating model
+08/19 16:37:41 Trainable parameters:
+08/19 16:37:41 embedding_api:0
+08/19 16:37:41 encoder_api/initial_state:0
+08/19 16:37:41 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 16:37:41 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 16:37:41 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 16:37:41 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 16:37:41 embedding_nl:0
+08/19 16:37:41 decoder_nl/api/initial_state_projection/kernel:0
+08/19 16:37:41 decoder_nl/api/initial_state_projection/bias:0
+08/19 16:37:41 attention_api/W_a/kernel:0
+08/19 16:37:41 attention_api/W_a/bias:0
+08/19 16:37:41 attention_api/U_a/kernel:0
+08/19 16:37:41 attention_api/v_a:0
+08/19 16:37:41 decoder_nl/attention_api/W_a/kernel:0
+08/19 16:37:41 decoder_nl/attention_api/W_a/bias:0
+08/19 16:37:41 decoder_nl/attention_api/U_a/kernel:0
+08/19 16:37:41 decoder_nl/attention_api/v_a:0
+08/19 16:37:41 decoder_nl/maxout/kernel:0
+08/19 16:37:41 decoder_nl/maxout/bias:0
+08/19 16:37:41 decoder_nl/softmax0/kernel:0
+08/19 16:37:41 decoder_nl/softmax1/kernel:0
+08/19 16:37:41 decoder_nl/softmax1/bias:0
+08/19 16:37:41 decoder_nl/gru_cell/gates/bias:0
+08/19 16:37:41 decoder_nl/gru_cell/gates/kernel:0
+08/19 16:37:41 decoder_nl/gru_cell/candidate/bias:0
+08/19 16:37:41 decoder_nl/gru_cell/candidate/kernel:0
+08/19 16:37:53 model parameters (29)
+08/19 16:37:53   attention_api/U_a/kernel:0 (128, 128)
+08/19 16:37:53   attention_api/W_a/bias:0 (128,)
+08/19 16:37:53   attention_api/W_a/kernel:0 (128, 128)
+08/19 16:37:53   attention_api/v_a:0 (128,)
+08/19 16:37:53   baseline_step:0 ()
+08/19 16:37:53   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 16:37:53   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 16:37:53   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 16:37:53   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 16:37:53   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 16:37:53   decoder_nl/attention_api/v_a:0 (128,)
+08/19 16:37:53   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 16:37:53   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 16:37:53   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 16:37:53   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 16:37:53   decoder_nl/maxout/bias:0 (128,)
+08/19 16:37:53   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 16:37:53   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 16:37:53   decoder_nl/softmax1/bias:0 (50004,)
+08/19 16:37:53   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 16:37:53   embedding_api:0 (33082, 128)
+08/19 16:37:53   embedding_nl:0 (50004, 128)
+08/19 16:37:53   encoder_api/initial_state:0 (128,)
+08/19 16:37:53   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 16:37:53   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 16:37:53   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 16:37:53   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 16:37:53   global_step:0 ()
+08/19 16:37:53   learning_rate:0 ()
+08/19 16:37:53 number of parameters: 17.47M
+08/19 16:37:55 global step: 0
+08/19 16:37:55 baseline step: 0
+08/19 16:37:55 reading training data
+08/19 16:37:55 total line count: 340922
+08/19 16:38:02   lines read: 100000
+08/19 16:38:09   lines read: 200000
+08/19 16:38:16   lines read: 300000
+08/19 16:38:19 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 16:38:19 lines reads: 340922
+08/19 16:38:19 reading development data
+08/19 16:38:20 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 16:38:20 lines reads: 18940
+08/19 16:38:20 starting training
+08/19 16:55:48 step 2000 epoch 1 learning rate 0.5 step-time 0.001 loss 94.328
+08/19 16:57:55   valid eval: loss 79.83
+08/19 16:57:55 starting decoding
+08/19 17:05:41 label: default
+08/19 17:05:41 description:
+  default configuration
+  next line of description
+  last line
+08/19 17:05:41 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 17:05:41 tensorflow version: 1.5.0
+08/19 17:05:41 program arguments
+08/19 17:05:41   aggregation_method   'sum'
+08/19 17:05:41   align_encoder_id     0
+08/19 17:05:41   allow_growth         True
+08/19 17:05:41   attention_type       'global'
+08/19 17:05:41   attn_filter_length   0
+08/19 17:05:41   attn_filters         0
+08/19 17:05:41   attn_prev_word       False
+08/19 17:05:41   attn_size            128
+08/19 17:05:41   attn_temperature     1.0
+08/19 17:05:41   attn_window_size     0
+08/19 17:05:41   average              False
+08/19 17:05:41   batch_mode           'standard'
+08/19 17:05:41   batch_size           32
+08/19 17:05:41   beam_size            2
+08/19 17:05:41   bidir                False
+08/19 17:05:41   bidir_projection     False
+08/19 17:05:41   binary               False
+08/19 17:05:41   cell_size            128
+08/19 17:05:41   cell_type            'GRU'
+08/19 17:05:41   character_level      False
+08/19 17:05:41   checkpoints          []
+08/19 17:05:41   conditional_rnn      False
+08/19 17:05:41   config               '../config/api2nl.yaml'
+08/19 17:05:41   data_dir             '../data_pre'
+08/19 17:05:41   debug                False
+08/19 17:05:41   decay_after_n_epoch  3
+08/19 17:05:41   decay_every_n_epoch  1
+08/19 17:05:41   decay_if_no_progress None
+08/19 17:05:41   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 17:05:41   description          'default configuration\nnext line of description\nlast line\n'
+08/19 17:05:41   dev_prefix           ['valid']
+08/19 17:05:41   early_stopping       True
+08/19 17:05:41   embedding_size       128
+08/19 17:05:41   embeddings_on_cpu    True
+08/19 17:05:41   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 17:05:41   ensemble             False
+08/19 17:05:41   eval_burn_in         0
+08/19 17:05:41   feed_previous        0.0
+08/19 17:05:41   final_state          'last'
+08/19 17:05:41   freeze_variables     []
+08/19 17:05:41   generate_first       True
+08/19 17:05:41   gpu_id               0
+08/19 17:05:41   highway_layers       0
+08/19 17:05:41   initial_state_dropout 0.0
+08/19 17:05:41   initializer          None
+08/19 17:05:41   input_layer_dropout  0.0
+08/19 17:05:41   input_layers         None
+08/19 17:05:41   keep_best            5
+08/19 17:05:41   keep_every_n_hours   0
+08/19 17:05:41   label                'default'
+08/19 17:05:41   layer_norm           False
+08/19 17:05:41   layers               1
+08/19 17:05:41   learning_rate        0.5
+08/19 17:05:41   learning_rate_decay_factor 0.95
+08/19 17:05:41   len_normalization    1.0
+08/19 17:05:41   log_file             'log.txt'
+08/19 17:05:41   loss_function        'xent'
+08/19 17:05:41   max_dev_size         0
+08/19 17:05:41   max_epochs           50
+08/19 17:05:41   max_gradient_norm    5.0
+08/19 17:05:41   max_len              50
+08/19 17:05:41   max_steps            500000
+08/19 17:05:41   max_test_size        0
+08/19 17:05:41   max_to_keep          1
+08/19 17:05:41   max_train_size       0
+08/19 17:05:41   maxout_stride        None
+08/19 17:05:41   mem_fraction         1.0
+08/19 17:05:41   min_learning_rate    1e-06
+08/19 17:05:41   model_dir            '../data_pre/model/api2nl'
+08/19 17:05:41   moving_average       None
+08/19 17:05:41   no_gpu               False
+08/19 17:05:41   optimizer            'sgd'
+08/19 17:05:41   orthogonal_init      False
+08/19 17:05:41   output               None
+08/19 17:05:41   output_dropout       0.0
+08/19 17:05:41   parallel_iterations  16
+08/19 17:05:41   pervasive_dropout    False
+08/19 17:05:41   pooling_avg          True
+08/19 17:05:41   post_process_script  None
+08/19 17:05:41   pred_deep_layer      False
+08/19 17:05:41   pred_edits           False
+08/19 17:05:41   pred_embed_proj      True
+08/19 17:05:41   pred_maxout_layer    True
+08/19 17:05:41   purge                False
+08/19 17:05:41   raw_output           False
+08/19 17:05:41   read_ahead           1
+08/19 17:05:41   remove_unk           False
+08/19 17:05:41   reverse_input        True
+08/19 17:05:41   rnn_feed_attn        True
+08/19 17:05:41   rnn_input_dropout    0.0
+08/19 17:05:41   rnn_output_dropout   0.0
+08/19 17:05:41   rnn_state_dropout    0.0
+08/19 17:05:41   save                 False
+08/19 17:05:41   score_function       'nltk_corpus_bleu'
+08/19 17:05:41   script_dir           'scripts'
+08/19 17:05:41   sgd_after_n_epoch    None
+08/19 17:05:41   sgd_learning_rate    1.0
+08/19 17:05:41   shuffle              True
+08/19 17:05:41   softmax_temperature  1.0
+08/19 17:05:41   steps_per_checkpoint 2000
+08/19 17:05:41   steps_per_eval       2000
+08/19 17:05:41   swap_memory          True
+08/19 17:05:41   tie_embeddings       False
+08/19 17:05:41   time_pooling         None
+08/19 17:05:41   train                True
+08/19 17:05:41   train_initial_states True
+08/19 17:05:41   train_prefix         'train'
+08/19 17:05:41   truncate_lines       True
+08/19 17:05:41   update_first         False
+08/19 17:05:41   use_dropout          False
+08/19 17:05:41   use_lstm_full_state  False
+08/19 17:05:41   use_previous_word    True
+08/19 17:05:41   verbose              True
+08/19 17:05:41   vocab_prefix         'vocab'
+08/19 17:05:41   weight_scale         None
+08/19 17:05:41   word_dropout         0.0
+08/19 17:05:41 python random seed: 5537118392779635501
+08/19 17:05:41 tf random seed:     8778679956132699097
+08/19 17:05:42 creating model
+08/19 17:05:42 using device: /gpu:0
+08/19 17:05:42 reading vocabularies
+08/19 17:05:42 creating model
+08/19 17:05:43 Trainable parameters:
+08/19 17:05:43 embedding_api:0
+08/19 17:05:43 encoder_api/initial_state:0
+08/19 17:05:43 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 17:05:43 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 17:05:43 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 17:05:43 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 17:05:43 embedding_nl:0
+08/19 17:05:43 decoder_nl/api/initial_state_projection/kernel:0
+08/19 17:05:43 decoder_nl/api/initial_state_projection/bias:0
+08/19 17:05:43 attention_api/W_a/kernel:0
+08/19 17:05:43 attention_api/W_a/bias:0
+08/19 17:05:43 attention_api/U_a/kernel:0
+08/19 17:05:43 attention_api/v_a:0
+08/19 17:05:43 decoder_nl/attention_api/W_a/kernel:0
+08/19 17:05:43 decoder_nl/attention_api/W_a/bias:0
+08/19 17:05:43 decoder_nl/attention_api/U_a/kernel:0
+08/19 17:05:43 decoder_nl/attention_api/v_a:0
+08/19 17:05:43 decoder_nl/maxout/kernel:0
+08/19 17:05:43 decoder_nl/maxout/bias:0
+08/19 17:05:44 decoder_nl/softmax0/kernel:0
+08/19 17:05:44 decoder_nl/softmax1/kernel:0
+08/19 17:05:44 decoder_nl/softmax1/bias:0
+08/19 17:05:44 decoder_nl/gru_cell/gates/bias:0
+08/19 17:05:44 decoder_nl/gru_cell/gates/kernel:0
+08/19 17:05:44 decoder_nl/gru_cell/candidate/bias:0
+08/19 17:05:44 decoder_nl/gru_cell/candidate/kernel:0
+08/19 17:05:55 model parameters (29)
+08/19 17:05:55   attention_api/U_a/kernel:0 (128, 128)
+08/19 17:05:55   attention_api/W_a/bias:0 (128,)
+08/19 17:05:55   attention_api/W_a/kernel:0 (128, 128)
+08/19 17:05:55   attention_api/v_a:0 (128,)
+08/19 17:05:55   baseline_step:0 ()
+08/19 17:05:55   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 17:05:55   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 17:05:55   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 17:05:55   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 17:05:55   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 17:05:55   decoder_nl/attention_api/v_a:0 (128,)
+08/19 17:05:55   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 17:05:55   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 17:05:55   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 17:05:55   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 17:05:55   decoder_nl/maxout/bias:0 (128,)
+08/19 17:05:55   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 17:05:55   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 17:05:55   decoder_nl/softmax1/bias:0 (50004,)
+08/19 17:05:55   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 17:05:55   embedding_api:0 (33082, 128)
+08/19 17:05:55   embedding_nl:0 (50004, 128)
+08/19 17:05:55   encoder_api/initial_state:0 (128,)
+08/19 17:05:55   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 17:05:55   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 17:05:55   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 17:05:55   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 17:05:55   global_step:0 ()
+08/19 17:05:55   learning_rate:0 ()
+08/19 17:05:55 number of parameters: 17.47M
+08/19 17:05:57 global step: 0
+08/19 17:05:57 baseline step: 0
+08/19 17:05:57 reading training data
+08/19 17:05:57 total line count: 340922
+08/19 17:06:05   lines read: 100000
+08/19 17:06:12   lines read: 200000
+08/19 17:06:19   lines read: 300000
+08/19 17:06:22 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 17:06:22 lines reads: 340922
+08/19 17:06:22 reading development data
+08/19 17:06:23 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 17:06:23 lines reads: 18940
+08/19 17:06:24 starting training
+08/19 17:13:19 label: default
+08/19 17:13:19 description:
+  default configuration
+  next line of description
+  last line
+08/19 17:13:19 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 17:13:19 tensorflow version: 1.5.0
+08/19 17:13:19 program arguments
+08/19 17:13:19   aggregation_method   'sum'
+08/19 17:13:19   align_encoder_id     0
+08/19 17:13:19   allow_growth         True
+08/19 17:13:19   attention_type       'global'
+08/19 17:13:19   attn_filter_length   0
+08/19 17:13:19   attn_filters         0
+08/19 17:13:19   attn_prev_word       False
+08/19 17:13:19   attn_size            128
+08/19 17:13:19   attn_temperature     1.0
+08/19 17:13:19   attn_window_size     0
+08/19 17:13:19   average              False
+08/19 17:13:19   batch_mode           'standard'
+08/19 17:13:19   batch_size           32
+08/19 17:13:19   beam_size            2
+08/19 17:13:19   bidir                False
+08/19 17:13:19   bidir_projection     False
+08/19 17:13:19   binary               False
+08/19 17:13:19   cell_size            128
+08/19 17:13:19   cell_type            'GRU'
+08/19 17:13:19   character_level      False
+08/19 17:13:19   checkpoints          []
+08/19 17:13:19   conditional_rnn      False
+08/19 17:13:19   config               '../config/api2nl.yaml'
+08/19 17:13:19   data_dir             '../data_pre'
+08/19 17:13:19   debug                False
+08/19 17:13:19   decay_after_n_epoch  3
+08/19 17:13:19   decay_every_n_epoch  1
+08/19 17:13:19   decay_if_no_progress None
+08/19 17:13:19   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 17:13:19   description          'default configuration\nnext line of description\nlast line\n'
+08/19 17:13:19   dev_prefix           ['valid']
+08/19 17:13:19   early_stopping       True
+08/19 17:13:19   embedding_size       128
+08/19 17:13:19   embeddings_on_cpu    True
+08/19 17:13:19   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 17:13:19   ensemble             False
+08/19 17:13:19   eval_burn_in         0
+08/19 17:13:19   feed_previous        0.0
+08/19 17:13:19   final_state          'last'
+08/19 17:13:19   freeze_variables     []
+08/19 17:13:19   generate_first       True
+08/19 17:13:19   gpu_id               0
+08/19 17:13:19   highway_layers       0
+08/19 17:13:19   initial_state_dropout 0.0
+08/19 17:13:19   initializer          None
+08/19 17:13:19   input_layer_dropout  0.0
+08/19 17:13:19   input_layers         None
+08/19 17:13:19   keep_best            5
+08/19 17:13:19   keep_every_n_hours   0
+08/19 17:13:19   label                'default'
+08/19 17:13:19   layer_norm           False
+08/19 17:13:19   layers               1
+08/19 17:13:19   learning_rate        0.5
+08/19 17:13:19   learning_rate_decay_factor 0.95
+08/19 17:13:19   len_normalization    1.0
+08/19 17:13:19   log_file             'log.txt'
+08/19 17:13:19   loss_function        'xent'
+08/19 17:13:19   max_dev_size         0
+08/19 17:13:19   max_epochs           50
+08/19 17:13:19   max_gradient_norm    5.0
+08/19 17:13:19   max_len              50
+08/19 17:13:19   max_steps            500000
+08/19 17:13:19   max_test_size        0
+08/19 17:13:19   max_to_keep          1
+08/19 17:13:19   max_train_size       0
+08/19 17:13:19   maxout_stride        None
+08/19 17:13:19   mem_fraction         1.0
+08/19 17:13:19   min_learning_rate    1e-06
+08/19 17:13:19   model_dir            '../data_pre/model/api2nl'
+08/19 17:13:19   moving_average       None
+08/19 17:13:19   no_gpu               False
+08/19 17:13:19   optimizer            'sgd'
+08/19 17:13:19   orthogonal_init      False
+08/19 17:13:19   output               None
+08/19 17:13:19   output_dropout       0.0
+08/19 17:13:19   parallel_iterations  16
+08/19 17:13:19   pervasive_dropout    False
+08/19 17:13:19   pooling_avg          True
+08/19 17:13:19   post_process_script  None
+08/19 17:13:19   pred_deep_layer      False
+08/19 17:13:19   pred_edits           False
+08/19 17:13:19   pred_embed_proj      True
+08/19 17:13:19   pred_maxout_layer    True
+08/19 17:13:19   purge                False
+08/19 17:13:19   raw_output           False
+08/19 17:13:19   read_ahead           1
+08/19 17:13:19   remove_unk           False
+08/19 17:13:19   reverse_input        True
+08/19 17:13:19   rnn_feed_attn        True
+08/19 17:13:19   rnn_input_dropout    0.0
+08/19 17:13:19   rnn_output_dropout   0.0
+08/19 17:13:19   rnn_state_dropout    0.0
+08/19 17:13:19   save                 False
+08/19 17:13:19   score_function       'nltk_corpus_bleu'
+08/19 17:13:19   script_dir           'scripts'
+08/19 17:13:19   sgd_after_n_epoch    None
+08/19 17:13:19   sgd_learning_rate    1.0
+08/19 17:13:19   shuffle              True
+08/19 17:13:19   softmax_temperature  1.0
+08/19 17:13:19   steps_per_checkpoint 2000
+08/19 17:13:19   steps_per_eval       2000
+08/19 17:13:19   swap_memory          True
+08/19 17:13:19   tie_embeddings       False
+08/19 17:13:19   time_pooling         None
+08/19 17:13:19   train                True
+08/19 17:13:19   train_initial_states True
+08/19 17:13:19   train_prefix         'train'
+08/19 17:13:19   truncate_lines       True
+08/19 17:13:19   update_first         False
+08/19 17:13:19   use_dropout          False
+08/19 17:13:19   use_lstm_full_state  False
+08/19 17:13:19   use_previous_word    True
+08/19 17:13:19   verbose              True
+08/19 17:13:19   vocab_prefix         'vocab'
+08/19 17:13:19   weight_scale         None
+08/19 17:13:19   word_dropout         0.0
+08/19 17:13:19 python random seed: 1942633886404626475
+08/19 17:13:19 tf random seed:     3662554474903315232
+08/19 17:13:20 creating model
+08/19 17:13:20 using device: /gpu:0
+08/19 17:13:20 reading vocabularies
+08/19 17:13:20 creating model
+08/19 17:13:21 Trainable parameters:
+08/19 17:13:21 embedding_api:0
+08/19 17:13:21 encoder_api/initial_state:0
+08/19 17:13:21 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 17:13:21 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 17:13:21 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 17:13:21 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 17:13:21 embedding_nl:0
+08/19 17:13:21 decoder_nl/api/initial_state_projection/kernel:0
+08/19 17:13:21 decoder_nl/api/initial_state_projection/bias:0
+08/19 17:13:21 attention_api/W_a/kernel:0
+08/19 17:13:21 attention_api/W_a/bias:0
+08/19 17:13:21 attention_api/U_a/kernel:0
+08/19 17:13:21 attention_api/v_a:0
+08/19 17:13:21 decoder_nl/attention_api/W_a/kernel:0
+08/19 17:13:21 decoder_nl/attention_api/W_a/bias:0
+08/19 17:13:21 decoder_nl/attention_api/U_a/kernel:0
+08/19 17:13:21 decoder_nl/attention_api/v_a:0
+08/19 17:13:21 decoder_nl/maxout/kernel:0
+08/19 17:13:21 decoder_nl/maxout/bias:0
+08/19 17:13:21 decoder_nl/softmax0/kernel:0
+08/19 17:13:21 decoder_nl/softmax1/kernel:0
+08/19 17:13:21 decoder_nl/softmax1/bias:0
+08/19 17:13:21 decoder_nl/gru_cell/gates/bias:0
+08/19 17:13:21 decoder_nl/gru_cell/gates/kernel:0
+08/19 17:13:21 decoder_nl/gru_cell/candidate/bias:0
+08/19 17:13:21 decoder_nl/gru_cell/candidate/kernel:0
+08/19 17:13:33 model parameters (29)
+08/19 17:13:33   attention_api/U_a/kernel:0 (128, 128)
+08/19 17:13:33   attention_api/W_a/bias:0 (128,)
+08/19 17:13:33   attention_api/W_a/kernel:0 (128, 128)
+08/19 17:13:33   attention_api/v_a:0 (128,)
+08/19 17:13:33   baseline_step:0 ()
+08/19 17:13:33   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 17:13:33   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 17:13:33   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 17:13:33   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 17:13:33   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 17:13:33   decoder_nl/attention_api/v_a:0 (128,)
+08/19 17:13:33   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 17:13:33   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 17:13:33   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 17:13:33   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 17:13:33   decoder_nl/maxout/bias:0 (128,)
+08/19 17:13:33   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 17:13:33   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 17:13:33   decoder_nl/softmax1/bias:0 (50004,)
+08/19 17:13:33   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 17:13:33   embedding_api:0 (33082, 128)
+08/19 17:13:33   embedding_nl:0 (50004, 128)
+08/19 17:13:33   encoder_api/initial_state:0 (128,)
+08/19 17:13:33   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 17:13:33   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 17:13:33   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 17:13:33   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 17:13:33   global_step:0 ()
+08/19 17:13:33   learning_rate:0 ()
+08/19 17:13:33 number of parameters: 17.47M
+08/19 17:13:34 global step: 0
+08/19 17:13:35 baseline step: 0
+08/19 17:13:35 reading training data
+08/19 17:13:35 total line count: 340922
+08/19 17:13:42   lines read: 100000
+08/19 17:13:49   lines read: 200000
+08/19 17:13:56   lines read: 300000
+08/19 17:13:59 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 17:13:59 lines reads: 340922
+08/19 17:13:59 reading development data
+08/19 17:14:00 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 17:14:00 lines reads: 18940
+08/19 17:14:01 starting training
+08/19 17:15:16 label: default
+08/19 17:15:16 description:
+  default configuration
+  next line of description
+  last line
+08/19 17:15:16 C:/Users/Administrator/Desktop/aaai19/TL-CodeSum-master/translate/main.py ../config/api2nl.yaml --train -v
+08/19 17:15:16 tensorflow version: 1.5.0
+08/19 17:15:16 program arguments
+08/19 17:15:16   aggregation_method   'sum'
+08/19 17:15:16   align_encoder_id     0
+08/19 17:15:16   allow_growth         True
+08/19 17:15:16   attention_type       'global'
+08/19 17:15:16   attn_filter_length   0
+08/19 17:15:16   attn_filters         0
+08/19 17:15:16   attn_prev_word       False
+08/19 17:15:16   attn_size            128
+08/19 17:15:16   attn_temperature     1.0
+08/19 17:15:16   attn_window_size     0
+08/19 17:15:16   average              False
+08/19 17:15:16   batch_mode           'standard'
+08/19 17:15:16   batch_size           32
+08/19 17:15:16   beam_size            2
+08/19 17:15:16   bidir                False
+08/19 17:15:16   bidir_projection     False
+08/19 17:15:16   binary               False
+08/19 17:15:16   cell_size            128
+08/19 17:15:16   cell_type            'GRU'
+08/19 17:15:16   character_level      False
+08/19 17:15:16   checkpoints          []
+08/19 17:15:16   conditional_rnn      False
+08/19 17:15:16   config               '../config/api2nl.yaml'
+08/19 17:15:16   data_dir             '../data_pre'
+08/19 17:15:16   debug                False
+08/19 17:15:16   decay_after_n_epoch  3
+08/19 17:15:16   decay_every_n_epoch  1
+08/19 17:15:16   decay_if_no_progress None
+08/19 17:15:16   decoders             [{'max_len': 30, 'name': 'nl'}]
+08/19 17:15:16   description          'default configuration\nnext line of description\nlast line\n'
+08/19 17:15:16   dev_prefix           ['valid']
+08/19 17:15:16   early_stopping       True
+08/19 17:15:16   embedding_size       128
+08/19 17:15:16   embeddings_on_cpu    True
+08/19 17:15:16   encoders             [{'max_len': 20, 'name': 'api'}]
+08/19 17:15:16   ensemble             False
+08/19 17:15:16   eval_burn_in         0
+08/19 17:15:16   feed_previous        0.0
+08/19 17:15:16   final_state          'last'
+08/19 17:15:16   freeze_variables     []
+08/19 17:15:16   generate_first       True
+08/19 17:15:16   gpu_id               0
+08/19 17:15:16   highway_layers       0
+08/19 17:15:16   initial_state_dropout 0.0
+08/19 17:15:16   initializer          None
+08/19 17:15:16   input_layer_dropout  0.0
+08/19 17:15:16   input_layers         None
+08/19 17:15:16   keep_best            5
+08/19 17:15:16   keep_every_n_hours   0
+08/19 17:15:16   label                'default'
+08/19 17:15:16   layer_norm           False
+08/19 17:15:16   layers               1
+08/19 17:15:16   learning_rate        0.5
+08/19 17:15:16   learning_rate_decay_factor 0.95
+08/19 17:15:16   len_normalization    1.0
+08/19 17:15:16   log_file             'log.txt'
+08/19 17:15:16   loss_function        'xent'
+08/19 17:15:16   max_dev_size         0
+08/19 17:15:16   max_epochs           50
+08/19 17:15:16   max_gradient_norm    5.0
+08/19 17:15:16   max_len              50
+08/19 17:15:16   max_steps            500000
+08/19 17:15:16   max_test_size        0
+08/19 17:15:16   max_to_keep          1
+08/19 17:15:16   max_train_size       0
+08/19 17:15:16   maxout_stride        None
+08/19 17:15:16   mem_fraction         1.0
+08/19 17:15:16   min_learning_rate    1e-06
+08/19 17:15:16   model_dir            '../data_pre/model/api2nl'
+08/19 17:15:16   moving_average       None
+08/19 17:15:16   no_gpu               False
+08/19 17:15:16   optimizer            'sgd'
+08/19 17:15:16   orthogonal_init      False
+08/19 17:15:16   output               None
+08/19 17:15:16   output_dropout       0.0
+08/19 17:15:16   parallel_iterations  16
+08/19 17:15:16   pervasive_dropout    False
+08/19 17:15:16   pooling_avg          True
+08/19 17:15:16   post_process_script  None
+08/19 17:15:16   pred_deep_layer      False
+08/19 17:15:16   pred_edits           False
+08/19 17:15:16   pred_embed_proj      True
+08/19 17:15:16   pred_maxout_layer    True
+08/19 17:15:16   purge                False
+08/19 17:15:16   raw_output           False
+08/19 17:15:16   read_ahead           1
+08/19 17:15:16   remove_unk           False
+08/19 17:15:16   reverse_input        True
+08/19 17:15:16   rnn_feed_attn        True
+08/19 17:15:16   rnn_input_dropout    0.0
+08/19 17:15:16   rnn_output_dropout   0.0
+08/19 17:15:16   rnn_state_dropout    0.0
+08/19 17:15:16   save                 False
+08/19 17:15:16   score_function       'nltk_corpus_bleu'
+08/19 17:15:16   script_dir           'scripts'
+08/19 17:15:16   sgd_after_n_epoch    None
+08/19 17:15:16   sgd_learning_rate    1.0
+08/19 17:15:16   shuffle              True
+08/19 17:15:16   softmax_temperature  1.0
+08/19 17:15:16   steps_per_checkpoint 2000
+08/19 17:15:16   steps_per_eval       2000
+08/19 17:15:16   swap_memory          True
+08/19 17:15:16   tie_embeddings       False
+08/19 17:15:16   time_pooling         None
+08/19 17:15:16   train                True
+08/19 17:15:16   train_initial_states True
+08/19 17:15:16   train_prefix         'train'
+08/19 17:15:16   truncate_lines       True
+08/19 17:15:16   update_first         False
+08/19 17:15:16   use_dropout          False
+08/19 17:15:16   use_lstm_full_state  False
+08/19 17:15:16   use_previous_word    True
+08/19 17:15:16   verbose              True
+08/19 17:15:16   vocab_prefix         'vocab'
+08/19 17:15:16   weight_scale         None
+08/19 17:15:16   word_dropout         0.0
+08/19 17:15:16 python random seed: 5038164880205725815
+08/19 17:15:16 tf random seed:     2349417893819650949
+08/19 17:15:17 creating model
+08/19 17:15:17 using device: /gpu:0
+08/19 17:15:17 reading vocabularies
+08/19 17:15:17 creating model
+08/19 17:15:18 Trainable parameters:
+08/19 17:15:18 embedding_api:0
+08/19 17:15:18 encoder_api/initial_state:0
+08/19 17:15:18 encoder_api/rnn/gru_cell/gates/bias:0
+08/19 17:15:18 encoder_api/rnn/gru_cell/gates/kernel:0
+08/19 17:15:18 encoder_api/rnn/gru_cell/candidate/bias:0
+08/19 17:15:18 encoder_api/rnn/gru_cell/candidate/kernel:0
+08/19 17:15:18 embedding_nl:0
+08/19 17:15:18 decoder_nl/api/initial_state_projection/kernel:0
+08/19 17:15:18 decoder_nl/api/initial_state_projection/bias:0
+08/19 17:15:18 attention_api/W_a/kernel:0
+08/19 17:15:18 attention_api/W_a/bias:0
+08/19 17:15:18 attention_api/U_a/kernel:0
+08/19 17:15:18 attention_api/v_a:0
+08/19 17:15:18 decoder_nl/attention_api/W_a/kernel:0
+08/19 17:15:18 decoder_nl/attention_api/W_a/bias:0
+08/19 17:15:18 decoder_nl/attention_api/U_a/kernel:0
+08/19 17:15:18 decoder_nl/attention_api/v_a:0
+08/19 17:15:18 decoder_nl/maxout/kernel:0
+08/19 17:15:18 decoder_nl/maxout/bias:0
+08/19 17:15:18 decoder_nl/softmax0/kernel:0
+08/19 17:15:18 decoder_nl/softmax1/kernel:0
+08/19 17:15:18 decoder_nl/softmax1/bias:0
+08/19 17:15:18 decoder_nl/gru_cell/gates/bias:0
+08/19 17:15:18 decoder_nl/gru_cell/gates/kernel:0
+08/19 17:15:18 decoder_nl/gru_cell/candidate/bias:0
+08/19 17:15:18 decoder_nl/gru_cell/candidate/kernel:0
+08/19 17:15:30 model parameters (29)
+08/19 17:15:30   attention_api/U_a/kernel:0 (128, 128)
+08/19 17:15:30   attention_api/W_a/bias:0 (128,)
+08/19 17:15:30   attention_api/W_a/kernel:0 (128, 128)
+08/19 17:15:30   attention_api/v_a:0 (128,)
+08/19 17:15:30   baseline_step:0 ()
+08/19 17:15:30   decoder_nl/api/initial_state_projection/bias:0 (128,)
+08/19 17:15:30   decoder_nl/api/initial_state_projection/kernel:0 (128, 128)
+08/19 17:15:30   decoder_nl/attention_api/U_a/kernel:0 (128, 128)
+08/19 17:15:30   decoder_nl/attention_api/W_a/bias:0 (128,)
+08/19 17:15:30   decoder_nl/attention_api/W_a/kernel:0 (128, 128)
+08/19 17:15:30   decoder_nl/attention_api/v_a:0 (128,)
+08/19 17:15:30   decoder_nl/gru_cell/candidate/bias:0 (128,)
+08/19 17:15:30   decoder_nl/gru_cell/candidate/kernel:0 (384, 128)
+08/19 17:15:30   decoder_nl/gru_cell/gates/bias:0 (256,)
+08/19 17:15:30   decoder_nl/gru_cell/gates/kernel:0 (384, 256)
+08/19 17:15:30   decoder_nl/maxout/bias:0 (128,)
+08/19 17:15:30   decoder_nl/maxout/kernel:0 (384, 128)
+08/19 17:15:30   decoder_nl/softmax0/kernel:0 (64, 128)
+08/19 17:15:30   decoder_nl/softmax1/bias:0 (50004,)
+08/19 17:15:30   decoder_nl/softmax1/kernel:0 (128, 50004)
+08/19 17:15:30   embedding_api:0 (33082, 128)
+08/19 17:15:30   embedding_nl:0 (50004, 128)
+08/19 17:15:30   encoder_api/initial_state:0 (128,)
+08/19 17:15:30   encoder_api/rnn/gru_cell/candidate/bias:0 (128,)
+08/19 17:15:30   encoder_api/rnn/gru_cell/candidate/kernel:0 (256, 128)
+08/19 17:15:30   encoder_api/rnn/gru_cell/gates/bias:0 (256,)
+08/19 17:15:30   encoder_api/rnn/gru_cell/gates/kernel:0 (256, 256)
+08/19 17:15:30   global_step:0 ()
+08/19 17:15:30   learning_rate:0 ()
+08/19 17:15:30 number of parameters: 17.47M
+08/19 17:15:32 global step: 0
+08/19 17:15:32 baseline step: 0
+08/19 17:15:32 reading training data
+08/19 17:15:32 total line count: 340922
+08/19 17:15:39   lines read: 100000
+08/19 17:15:46   lines read: 200000
+08/19 17:15:53   lines read: 300000
+08/19 17:15:56 files: ../data_pre\train/train.token.api ../data_pre\train/train.token.nl
+08/19 17:15:56 lines reads: 340922
+08/19 17:15:56 reading development data
+08/19 17:15:57 files: ../data_pre\valid/valid.token.api ../data_pre\valid/valid.token.nl
+08/19 17:15:57 lines reads: 18940
+08/19 17:15:58 starting training
+08/19 17:33:19 step 2000 epoch 1 learning rate 0.5 step-time 0.001 loss 94.850
+08/19 17:35:25   valid eval: loss 79.31
+08/19 17:35:25 starting decoding
+08/19 17:38:59 valid score=0.0170 avg_score=0.1145
+08/19 17:38:59 saving model to ../data_pre/model/api2nl\checkpoints
+08/19 17:39:00 finished saving model
+08/19 17:56:34 step 4000 epoch 1 learning rate 0.5 step-time 0.000 loss 75.867
+08/19 17:58:40   valid eval: loss 74.05
+08/19 17:58:40 starting decoding
+08/19 18:02:11 valid score=0.3774 avg_score=0.1163
+08/19 18:02:11 saving model to ../data_pre/model/api2nl\checkpoints
+08/19 18:02:14 finished saving model
